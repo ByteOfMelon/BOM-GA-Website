@@ -15,7 +15,38 @@ const formatDate = (dateString) => {
 	return new Date(dateString).toLocaleDateString(undefined, options)
 }
 
-useHead({ title: article.value ? `${article.value.title}` : "Loading..." });
+useHead(() => ({
+    title: article.value ? article.value.title : "Loading...",
+    meta: [
+        { 
+            key: 'description',
+            name: 'description', 
+            content: article.value ? article.value.description : "Read this news article on the official site of the Byte of Melon Community Game Awards." 
+        },
+
+        // Corrected Open Graph tags with 'property' and a unique 'key'
+        { 
+            key: 'og:title',
+            property: 'og:title', 
+            content: article.value ? article.value.title : "Byte of Melon Community Game Awards"
+        },
+        { 
+            key: 'og:type',
+            property: 'og:type', 
+            content: 'website'
+        },
+        { 
+            key: 'og:description',
+            property: 'og:description', 
+            content: article.value ? article.value.description : "Read this news article on the official site of the Byte of Melon Community Game Awards."
+        },
+        { 
+            key: 'og:image',
+            property: 'og:image', 
+            content: article.value ? article.value.image : "https://ga.byteofmelon.com/img/generic-banner.png"
+        },
+    ]
+}));
 </script>
 
 <template>
