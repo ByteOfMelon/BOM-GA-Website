@@ -5,7 +5,7 @@
     --links: #ff6d85;
     --foreground: white;
     --brand-color: #ff6d85;
-    --light-gradient: linear-gradient(180deg, #ff4362 0%, #c72842 100%);
+    --light-gradient: linear-gradient(180deg, #ff5d78 0%, #ec3a58 100%);
     --reg-gradient: linear-gradient(180deg, #FC617B 0%, #8E1428 100%);
     --dark-gradient: linear-gradient(180deg, #8E1428 0%, #701121 100%);
 
@@ -22,7 +22,7 @@
 html {
     background-color: #3f0a13;
     opacity: 0.8;
-    background-image:  linear-gradient(135deg, #4c0c17 25%, transparent 25%), linear-gradient(225deg, #4c0c17 25%, transparent 25%), linear-gradient(45deg, #4c0c17 25%, transparent 25%), linear-gradient(315deg, #4c0c17 25%, #3f0a13 25%);
+    background-image: linear-gradient(135deg, #4c0c17 25%, transparent 25%), linear-gradient(225deg, #4c0c17 25%, transparent 25%), linear-gradient(45deg, #4c0c17 25%, transparent 25%), linear-gradient(315deg, #4c0c17 25%, #3f0a13 25%);
     background-position:  13px 0, 13px 0, 0 0, 0 0;
     background-size: 26px 26px;
     background-repeat: repeat;
@@ -89,6 +89,7 @@ hr {
 }
 
 .card {
+    background-color: var(--background);
     border: 3px solid #ff6d85;
     border-radius: 1rem;
     width: 100%;
