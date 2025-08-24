@@ -1,14 +1,76 @@
 <template>
-    <div class="text-center">
-        <h2 class="text-4xl font-extrabold mb-4">Welcome to Test</h2>
-        <p class="text-slate-400 max-w-2xl mx-auto mb-8">
-            This is very test very iphone
-        </p>
-        <NuxtLink 
-            to="/news" 
-            class="bg-green-500 hover:bg-green-600 text-white font-bold py-3 px-6 rounded-lg transition-transform transform hover:scale-105 inline-block"
-        >
-            Browse News Articles
-        </NuxtLink>
+    <div class="flex flex-col justify-center items-center space-y-4 p-8">
+        <div class="flex flex-col items-center space-y-8 text-center">
+            <h1 class="text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Game awards by the community, for the community</h1>
+            <div class="card justify-center items-center px-12 py-4 flex flex-col space-y-4">
+                <p>Have your say in awarding the best video games! The Byte of Melon Game Awards is entirely decided by your own vote, rather than the views of a select few.</p>
+
+                <h2 class="text-4xl font-extrabold !mt-8 mb-4 grad-title text-shadow-lg">About</h2>
+                <p>
+                    The Byte of Melon Game Awards is an annual game award show presented by Michael Webb, aka "Byte of Melon", on his Twitch channel, <NuxtLink to="https://twitch.tv/byteofmelon">twitch.tv/byteofmelon</NuxtLink>.<br /><br />
+                    
+                    The goal of the show is to allow the audience to run the show by allowing winners to be chosen by the audience (from a select number of candidates decided by the Byte of Melon Community Game Awards Nomination Committee). The committee exists to pick interesting categories and legitimate choices for each of these categories, but still provide the final decision to our community in the spirit of the show. After all, it is our belief that video games deserve to be honored by the gamers, not the media.<br /><br />
+
+                    Participate with the community and get announcements first on the <NuxtLink to="https://discord.gg/bhVkwgCDtZ">BOM Community Discord Server</NuxtLink>!<br /><br />
+
+                    Learn more about the selection process and the Nomination Committee below.
+                </p>
+                <NuxtLink to="/about">
+                    <button>Learn More</button>
+                </NuxtLink>
+                <!-- 
+                    <div class="!my-12 w-2/3">
+                        <hr class="w-full" />
+                    </div>
+                -->
+            </div>
+            <div class="card justify-center items-center px-12 py-4 flex flex-col space-y-8">
+                <h2 class="text-4xl font-extrabold grad-title text-shadow-lg">Latest News</h2>
+                <div class="flex" v-if="error">
+                    <p>Error loading news, please click the button below to visit News</p>
+                </div>
+                <div class="flex" v-else-if="pending">
+                    <p>Loading news, please wait...</p>
+                </div>
+                <div class="flex w-full justify-center space-x-6" v-else-if="articles">
+                    <div class="flex flex-col w-1/4" v-for="article in articles" :key="article.path">
+                        <NuxtLink :to="article.path">
+                            <div class="article">
+                                <img :src="article.image" class="mb-4" />
+                                <div class="flex flex-col space-y-2">
+                                    <h3 class="text-xl font-bold">{{ article.title }}</h3>
+                                    <p class="text-base">{{ article.description }}</p>
+                                    <p class="text-sm text-gray-400">{{ formatDate(article.date) }}</p>
+                                </div>
+                            </div>
+                        </NuxtLink>
+                    </div>
+                </div>
+                <div class="flex" v-else>
+                    <i>No news articles</i>
+                </div>
+                <NuxtLink to="/news">
+                    <button>Read More News</button>
+                </NuxtLink>
+            </div>
+            <div class="card justify-center items-center px-12 py-4 flex flex-col space-y-4">
+                <h2 class="text-4xl font-extrabold grad-title text-shadow-lg">Past Shows</h2>
+                <p>
+                   TBA
+                </p>
+            </div>
+        </div>
     </div>
 </template>
+
+<script setup>
+    // Fetch news
+    const { data: articles, pending, error } = await useAsyncData("articles", () => queryCollection('news').order('date', 'DESC').limit(4).all());
+
+    // Helper function to format the date string for better readability.
+    const formatDate = (dateString) => {
+        if (!dateString) return '';
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        return new Date(dateString).toLocaleDateString(undefined, options);
+    }
+</script>
