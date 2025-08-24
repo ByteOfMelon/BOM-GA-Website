@@ -6,5 +6,5 @@
 </template>
 
 <script lang="ts" setup>
-	useHead({ titleTemplate: 'Byte of Melon Community Game Awards' });
+	useHead({ titleTemplate: '%s - Byte of Melon Community Game Awards' });
 </script>

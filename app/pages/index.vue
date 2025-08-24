@@ -63,14 +63,18 @@
     </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
+    useHead({ 
+        title: 'Home'
+    })
+
     // Fetch news
     const { data: articles, pending, error } = await useAsyncData("articles", () => queryCollection('news').order('date', 'DESC').limit(4).all());
 
     // Helper function to format the date string for better readability.
-    const formatDate = (dateString) => {
+    const formatDate = (dateString: string) => {
         if (!dateString) return '';
-        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        const options: any = { year: 'numeric', month: 'long', day: 'numeric' };
         return new Date(dateString).toLocaleDateString(undefined, options);
     }
 </script>

@@ -27,5 +27,6 @@
 </template>
 
 <script setup>
-const { data: faq, pending, error } = await useAsyncData("faq", () => queryCollection('faq').order("order", "ASC").all())
+    useHead({ title: 'FAQ' });
+    const { data: faq, pending, error } = await useAsyncData("faq", () => queryCollection('faq').order("order", "ASC").all())
 </script>

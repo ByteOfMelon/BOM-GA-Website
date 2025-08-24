@@ -1,4 +1,6 @@
 <script setup>
+    useHead({ title: 'News' });
+
 	const { data: articles, pending, error } = await useAsyncData("articles", () => queryCollection('news').order('date', 'DESC').all());
 
     // Helper function to format the date string for better readability.

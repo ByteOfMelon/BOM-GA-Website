@@ -44,7 +44,7 @@ export default defineNuxtConfig({
         { name: 'og:title', content: "Byte of Melon Community Game Awards"},
         { name: 'og:type', content: "website"},
         { name: 'og:description', content: "The Byte of Melon Community Game Awards is a game award show presented by Michael Webb, aka Byte of Melon, on his Twitch channel. The goal of the show is to allow the audience to run the show by allowing winners to be chosen by the audience (from a select number of candidates decided by the BOM Community Game Awards Nomination Committee)."},
-        { name: 'og:image', content: 'https://chromaforgeband.com/og-image.png'},
+        { name: 'og:image', content: 'https://ga.byteofmelon.com/img/generic-banner.png'},
         { name: 'og:site_name', content: 'Byte of Melon Community Game Awards'},
 
 				// Theme color
