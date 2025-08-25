@@ -41,6 +41,24 @@ export default defineContentConfig({
         year: z.number(),
         youtube_url: z.string()
       })
-    })
+    }),
+    winners: defineCollection({
+      type: "data",
+      source: "winners/**.json",
+      schema: z.object({
+        year: z.number(),
+        categories: z.array(z.object({
+          name: z.string(),
+          description: z.string(),
+          order: z.number(),
+          nominees: z.array(z.object({
+            name: z.string(),
+            votes: z.number(),
+            winner: z.boolean(),
+            image: z.string()
+          }))
+        }))
+      })
+    }),
   }
 })

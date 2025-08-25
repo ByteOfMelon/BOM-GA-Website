@@ -66,11 +66,11 @@
                         <fa :icon="['fab', 'bluesky']" />
                     </NuxtLink>
                     
-                    <NuxtLink to="https://youtube.com/therandommelon" class="flex items-center socials-generic">
+                    <NuxtLink to="https://youtube.com/@byteofmelon" class="flex items-center socials-generic">
                         <fa :icon="['fab', 'youtube']" />
                     </NuxtLink>
                     
-                    <NuxtLink to="https://twitch.tv/therandommelon" class="flex items-center socials-generic">
+                    <NuxtLink to="https://twitch.tv/byteofmelon" class="flex items-center socials-generic">
                         <fa :icon="['fab', 'twitch']" />
                     </NuxtLink>
                 </div>

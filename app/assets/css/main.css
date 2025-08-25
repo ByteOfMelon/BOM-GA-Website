@@ -43,6 +43,10 @@ body {
     background: var(--reg-gradient);
 }
 
+.gradient-regular-important {
+    background: var(--reg-gradient) !important;
+}
+
 .gradient-light {
     background: var(--light-gradient);
 }

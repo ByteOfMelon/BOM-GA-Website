@@ -24,7 +24,7 @@ export default defineNuxtConfig({
 
   fontawesome: {
     icons: {
-      solid: ["house", "record-vinyl", "circle-info", "link", "users", "globe", "bars", "xmark"],
+      solid: ["house", "record-vinyl", "circle-info", "link", "users", "globe", "bars", "xmark", "circle-check"],
       regular: [],
       brands: ["facebook", "youtube", "x-twitter", "bluesky", "discord", "twitch", "instagram", "tiktok"]
     },

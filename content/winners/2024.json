@@ -1,0 +1,995 @@
+{
+    "year": 2024,
+    "categories": [
+        {
+            "name": "Best DLC of 2024",
+            "description": "This award is presented to the best piece of downloadable content (DLC) released in 2024. (The original game can be pre-2024, but not the piece of DLC.)",
+            "order": 1,
+            "nominees": [
+                {
+                    "name": "Alan Wake 2: The Lake House",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/alan-wake-2-the-lake-house.webp"
+                },
+                {
+                    "name": "Elden Ring: Shadow of the Erdtree",
+                    "winner": false,
+                    "votes": 4,
+                    "image": "/img/nominees/2024/elden-ring-shadow-of-erdtree.webp"
+                },
+                {
+                    "name": "Final Fantasy XVI: The Rising Tide",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/final-fantasy-xvi-the-rising-tide.webp"
+                },
+                {
+                    "name": "Persona 3 Reload: Episode Aigis",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/persona-3-reload-episode-aigis.webp"
+                },
+                {
+                    "name": "Splatoon 3: Side Order",
+                    "winner": true,
+                    "votes": 10,
+                    "image": "/img/nominees/2024/splatoon-3-side-order.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Licensed Game of 2024",
+            "description": "This award is presented to the best game that is a tie-in to another franchise, such as a movie or TV show, that was released in 2024.",
+            "order": 2,
+            "nominees": [
+                {
+                    "name": "Indiana Jones and the Great Circle",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/indiana-jones-and-the-great-circle.webp"
+                },
+                {
+                    "name": "Marvel Rivals",
+                    "winner": true,
+                    "votes": 9,
+                    "image": "/img/nominees/2024/marvel-rivals.webp"
+                },
+                {
+                    "name": "MARVEL vs. CAPCOM Fighting Collection: Arcade Classics",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/marvel-vs-capcom-fighting-collection-arcade-classics.webp"
+                },
+                {
+                    "name": "MultiVersus",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/multiversus.webp"
+                },
+                {
+                    "name": "SpongeBob SquarePants: The Patrick Star Game",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/spongebob-squarepants-the-patrick-star-game.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Sports Game of All Time",
+            "description": "This award is presented to the best video game that adapts a real-life sport into video game form.",
+            "order": 3,
+            "nominees": [
+                {
+                    "name": "ESPN NFL 2K5",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/espn-nfl-2k5.webp"
+                },
+                {
+                    "name": "Fight Night: Round 3",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/fight-night-round-3.webp"
+                },
+                {
+                    "name": "MVP Baseball 2005",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/mvp-baseball-2005.webp"
+                },
+                {
+                    "name": "NFL Street",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/nfl-street.webp"
+                },
+                {
+                    "name": "Rocket League",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/rocket-league.webp"
+                },
+                {
+                    "name": "Wii Sports",
+                    "winner": true,
+                    "votes": 11,
+                    "image": "/img/nominees/2024/wii-sports.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Action RPG of 2024",
+            "description": "This award is presented to the best action role-playing game (RPG) that was released in 2024.",
+            "order": 4,
+            "nominees": [
+                {
+                    "name": "Black Myth: Wukong",
+                    "winner": false,
+                    "votes": 3,
+                    "image": "/img/nominees/2024/black-myth-wukong.webp"
+                },
+                {
+                    "name": "Final Fantasy VII Rebirth",
+                    "winner": true,
+                    "votes": 5,
+                    "image": "/img/nominees/2024/final-fantasy-vii-rebirth.webp"
+                },
+                {
+                    "name": "Like a Dragon: Infinite Wealth",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/like-a-dragon-infinite-wealth.webp"
+                },
+                {
+                    "name": "Path of Exile 2",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/path-of-exile-2.webp"
+                },
+                {
+                    "name": "Stellar Blade",
+                    "winner": false,
+                    "votes": 3,
+                    "image": "/img/nominees/2024/stellar-blade.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Action RPG of All Time",
+            "description": "This award is presented to the best action role-playing game (RPG) of all time.",
+            "order": 5,
+            "nominees": [
+                {
+                    "name": "Bloodborne",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/bloodborne.webp"
+                },
+                {
+                    "name": "Dark Souls 3",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/dark-souls-3.webp"
+                },
+                {
+                    "name": "The Elder Scrolls V: Skyrim",
+                    "winner": false,
+                    "votes": 3,
+                    "image": "/img/nominees/2024/skyrim.webp"
+                },
+                {
+                    "name": "The Legend of Zelda: Breath of the Wild",
+                    "winner": true,
+                    "votes": 3,
+                    "image": "/img/nominees/2024/zelda-breath-of-the-wild.webp"
+                },
+                {
+                    "name": "The Witcher 3",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/the-witcher-3.webp"
+                },
+                {
+                    "name": "Xenoblade Chronicles 3",
+                    "winner": false,
+                    "votes": 3,
+                    "image": "/img/nominees/2024/xenoblade-chronicles-3.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Turn Based RPG of 2024",
+            "description": "This award is presented to the best turn-based role-playing game (RPG) that was released in 2024.",
+            "order": 6,
+            "nominees": [
+                {
+                    "name": "Mario & Luigi: Brothership",
+                    "winner": false,
+                    "votes": 3,
+                    "image": "/img/nominees/2024/mario-and-luigi-brothership.webp"
+                },
+                {
+                    "name": "Metaphor: ReFantazio",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/metaphor-refantazio.webp"
+                },
+                {
+                    "name": "Paper Mario: TTYD Remake",
+                    "winner": true,
+                    "votes": 5,
+                    "image": "/img/nominees/2024/paper-mario-ttyd-remake.webp"
+                },
+                {
+                    "name": "Persona 3 Reload",
+                    "winner": false,
+                    "votes": 4,
+                    "image": "/img/nominees/2024/persona-3-reload.webp"
+                },
+                {
+                    "name": "Shin Megami Tensei V: Vengeance",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/smt-v.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Turn Based RPG of All Time",
+            "description": "This award is presented to the best turn-based role-playing game (RPG) of all time.",
+            "order": 7,
+            "nominees": [
+                {
+                    "name": "Chrono Trigger",
+                    "winner": false,
+                    "votes": 4,
+                    "image": "/img/nominees/2024/chrono-trigger.webp"
+                },
+                {
+                    "name": "EarthBound",
+                    "winner": true,
+                    "votes": 5,
+                    "image": "/img/nominees/2024/earthbound.webp"
+                },
+                {
+                    "name": "Final Fantasy VII",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/final-fantasy-vii.webp"
+                },
+                {
+                    "name": "Persona 5",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/persona-5.webp"
+                },
+                {
+                    "name": "Shin Megami Tensei 3: Nocturne",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/smt-3-nocturne.webp"
+                },
+                {
+                    "name": "Undertale",
+                    "winner": false,
+                    "votes": 5,
+                    "image": "/img/nominees/2024/undertale.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Shooter of 2024",
+            "description": "This award is presented to the best 'shooter game', a type of action game focused on defeating enemies with ranged weapons, that was released in 2024.",
+            "order": 8,
+            "nominees": [
+                {
+                    "name": "Call of Duty: Black Ops 6",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/cod-bo6.webp"
+                },
+                {
+                    "name": "Helldivers 2",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/helldivers-2.webp"
+                },
+                {
+                    "name": "Marvel Rivals",
+                    "winner": true,
+                    "votes": 9,
+                    "image": "/img/nominees/2024/marvel-rivals.webp"
+                },
+                {
+                    "name": "Warhammer 40K: Space Marine 2",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/warhammer-40k-space-marine-2.webp"
+                },
+                {
+                    "name": "XDefiant",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/xdefiant.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Campaign Shooter of All Time",
+            "description": "This award is presented to the best 'campaign shooter' game, a type of shooter that is focused on a story campaign, of all time.",
+            "order": 9,
+            "nominees": [
+                {
+                    "name": "BioShock 2",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/bioshock-2.webp"
+                },
+                {
+                    "name": "Borderlands 2",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/borderlands-2.webp"
+                },
+                {
+                    "name": "Call of Duty: Black Ops 2",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/cod-bo2.webp"
+                },
+                {
+                    "name": "DOOM Eternal",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/doom-eternal.webp"
+                },
+                {
+                    "name": "Fallout: New Vegas",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/fallout-new-vegas.webp"
+                },
+                {
+                    "name": "Half-Life 2",
+                    "winner": true,
+                    "votes": 9,
+                    "image": "/img/nominees/2024/half-life-2.webp"
+                },
+                {
+                    "name": "Halo 3",
+                    "winner": false,
+                    "votes": 3,
+                    "image": "/img/nominees/2024/halo-3.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Online Shooter of All Time",
+            "description": "This award is presented to the best 'online shooter' game, a type of shooter that is focused on online gameplay, of all time.",
+            "order": 10,
+            "nominees": [
+                {
+                    "name": "Apex Legends",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/apex-legends.webp"
+                },
+                {
+                    "name": "Call of Duty: Modern Warfare 3",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/cod-mw3.webp"
+                },
+                {
+                    "name": "CS:GO/CS2",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/cs2.webp"
+                },
+                {
+                    "name": "Fortnite",
+                    "winner": false,
+                    "votes": 6,
+                    "image": "/img/nominees/2024/fortnite.webp"
+                },
+                {
+                    "name": "Team Fortress 2",
+                    "winner": true,
+                    "votes": 6,
+                    "image": "/img/nominees/2024/tf2.webp"
+                },
+                {
+                    "name": "Tom Clancy's Rainbow Six Siege",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/rainbow-six-siege.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Soundtrack of 2024",
+            "description": "This award is presented to the best soundtrack in a video game released in 2024.",
+            "order": 11,
+            "nominees": [
+                {
+                    "name": "Astro Bot",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/astro-bot.webp"
+                },
+                {
+                    "name": "Final Fantasy VII Rebirth",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/final-fantasy-vii-rebirth.webp"
+                },
+                {
+                    "name": "Mario & Luigi: Brothership",
+                    "winner": false,
+                    "votes": 3,
+                    "image": "/img/nominees/2024/mario-and-luigi-brothership.webp"
+                },
+                {
+                    "name": "Metaphor: ReFantazio",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/metaphor-refantazio.webp"
+                },
+                {
+                    "name": "Persona 3 Reload",
+                    "winner": true,
+                    "votes": 7,
+                    "image": "/img/nominees/2024/persona-3-reload.webp"
+                },
+                {
+                    "name": "Super Mario Party Jamboree",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/super-mario-party-jamboree.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Narrative of 2024",
+            "description": "This award is presented to the best narrative (story) in a video game released in 2024.",
+            "order": 12,
+            "nominees": [
+                {
+                    "name": "1000xResist",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/1000xresist.webp"
+                },
+                {
+                    "name": "Final Fantasy VII Rebirth",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/final-fantasy-vii-rebirth.webp"
+                },
+                {
+                    "name": "Like a Dragon: Infinite Wealth",
+                    "winner": false,
+                    "votes": 3,
+                    "image": "/img/nominees/2024/like-a-dragon-infinite-wealth.webp"
+                },
+                {
+                    "name": "Metaphor: ReFantazio",
+                    "winner": false,
+                    "votes": 3,
+                    "image": "/img/nominees/2024/metaphor-refantazio.webp"
+                },
+                {
+                    "name": "Silent Hill 2",
+                    "winner": true,
+                    "votes": 6,
+                    "image": "/img/nominees/2024/silent-hill-2.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Co-Op Game of All Time",
+            "description": "This award is presented to the best co-operative multiplayer game of all time.",
+            "order": 13,
+            "nominees": [
+                {
+                    "name": "Don't Starve Together",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/dont-starve-together.webp"
+                },
+                {
+                    "name": "Halo 3",
+                    "winner": false,
+                    "votes": 4,
+                    "image": "/img/nominees/2024/halo-3.webp"
+                },
+                {
+                    "name": "It Takes Two",
+                    "winner": false,
+                    "votes": 4,
+                    "image": "/img/nominees/2024/it-takes-two.webp"
+                },
+                {
+                    "name": "Overcooked 2",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/overcooked-2.webp"
+                },
+                {
+                    "name": "Portal 2",
+                    "winner": true,
+                    "votes": 5,
+                    "image": "/img/nominees/2024/portal-2.webp"
+                },
+                {
+                    "name": "Stardew Valley",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/stardew-valley.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Comedy Game of All Time",
+            "description": "This award is presented to the best game that either has a focus on or is well known for comedy of all time.",
+            "order": 14,
+            "nominees": [
+                {
+                    "name": "Borderlands 2",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/borderlands-2.webp"
+                },
+                {
+                    "name": "EarthBound",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/earthbound.webp"
+                },
+                {
+                    "name": "I Expect You to Die",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/i-expect-you-to-die.webp"
+                },
+                {
+                    "name": "Saints Row: The Third",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/saints-row-the-third.webp"
+                },
+                {
+                    "name": "Sam & Max Hit the Road",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/sam-and-max-hit-the-road.webp"
+                },
+                {
+                    "name": "The Stanley Parable",
+                    "winner": true,
+                    "votes": 11,
+                    "image": "/img/nominees/2024/the-stanley-parable.webp"
+                }
+            ]
+        },
+        {
+            "name": "Most Anticipated Game",
+            "description": "This award is presented to the most anticipated upcoming release.",
+            "order": 15,
+            "nominees": [
+                {
+                    "name": "Grand Theft Auto VI",
+                    "winner": true,
+                    "votes": 11,
+                    "image": "/img/nominees/2024/grand-theft-auto-vi.webp"
+                },
+                {
+                    "name": "Hollow Knight: Silksong",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/hollow-knight-silksong.webp"
+                },
+                {
+                    "name": "Metroid Prime 4",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/metroid-prime-4-beyond.webp"
+                },
+                {
+                    "name": "Okami 2",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/okami-2.webp"
+                },
+                {
+                    "name": "The Witcher 4",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/the-witcher-4.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Art Direction of 2024",
+            "description": "This award is presented to the game with the best art direction released in 2024.",
+            "order": 16,
+            "nominees": [
+                {
+                    "name": "Astro Bot",
+                    "winner": true,
+                    "votes": 6,
+                    "image": "/img/nominees/2024/astro-bot.webp"
+                },
+                {
+                    "name": "Hades II",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/hades-2.webp"
+                },
+                {
+                    "name": "Mario & Luigi: Brothership",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/mario-and-luigi-brothership.webp"
+                },
+                {
+                    "name": "Metaphor: ReFantazio",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/metaphor-refantazio.webp"
+                },
+                {
+                    "name": "Paper Mario: TTYD Remake",
+                    "winner": false,
+                    "votes": 4,
+                    "image": "/img/nominees/2024/paper-mario-ttyd-remake.webp"
+                },
+                {
+                    "name": "Thank Goodness You're Here!",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/thank-goodness-youre-here.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Sound Design of 2024",
+            "description": "This award is presented to the game with the best sound design released in 2024.",
+            "order": 17,
+            "nominees": [
+                {
+                    "name": "Astro Bot",
+                    "winner": false,
+                    "votes": 5,
+                    "image": "/img/nominees/2024/astro-bot.webp"
+                },
+                {
+                    "name": "Balatro",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/balatro.webp"
+                },
+                {
+                    "name": "Call of Duty: Black Ops 6",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/cod-bo6.webp"
+                },
+                {
+                    "name": "Final Fantasy VII Rebirth",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/final-fantasy-vii-rebirth.webp"
+                },
+                {
+                    "name": "Silent Hill 2",
+                    "winner": true,
+                    "votes": 6,
+                    "image": "/img/nominees/2024/silent-hill-2.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Speedrun Game of 2024",
+            "description": "This award is presented to the best game for speedrunning that was released in 2024. This category considers elements such as the popularity of running the game and the development of interesting mechanics to complete runs.",
+            "order": 18,
+            "nominees": [
+                {
+                    "name": "Astro Bot",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/astro-bot.webp"
+                },
+                {
+                    "name": "Balatro",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/balatro.webp"
+                },
+                {
+                    "name": "Chained Together",
+                    "winner": true,
+                    "votes": 3,
+                    "image": "/img/nominees/2024/chained-together.webp"
+                },
+                {
+                    "name": "Hades II",
+                    "winner": false,
+                    "votes": 3,
+                    "image": "/img/nominees/2024/hades-2.webp"
+                },
+                {
+                    "name": "Sonic x Shadow Generations",
+                    "winner": false,
+                    "votes": 3,
+                    "image": "/img/nominees/2024/sonic-x-shadow-generations.webp"
+                },
+                {
+                    "name": "UFO 50",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/ufo-50.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Roguelike of All Time",
+            "description": "This award is presented to the best 'roguelike game', a type of game known for procedural generation, permadeath and dungeon crawling, of all time.",
+            "order": 19,
+            "nominees": [
+                {
+                    "name": "Balatro",
+                    "winner": false,
+                    "votes": 3,
+                    "image": "/img/nominees/2024/balatro.webp"
+                },
+                {
+                    "name": "Cult of the Lamb",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/cult-of-the-lamb.webp"
+                },
+                {
+                    "name": "Enter the Gungeon",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/enter-the-gungeon.webp"
+                },
+                {
+                    "name": "Hades",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/hades.webp"
+                },
+                {
+                    "name": "Slay the Spire",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/slay-the-spire.webp"
+                },
+                {
+                    "name": "Spelunky",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/spelunky.webp"
+                },
+                {
+                    "name": "The Binding of Isaac",
+                    "winner": true,
+                    "votes": 6,
+                    "image": "/img/nominees/2024/the-binding-of-isaac.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Indie Game of 2024",
+            "description": "This award is presented to the best independent (indie) game, or a game released by a studio without AAA backing, released in 2024",
+            "order": 20,
+            "nominees": [
+                {
+                    "name": "Animal Well",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/animal-well.webp"
+                },
+                {
+                    "name": "Balatro",
+                    "winner": true,
+                    "votes": 10,
+                    "image": "/img/nominees/2024/balatro.webp"
+                },
+                {
+                    "name": "Hades II",
+                    "winner": false,
+                    "votes": 3,
+                    "image": "/img/nominees/2024/hades-2.webp"
+                },
+                {
+                    "name": "The Plucky Squire",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/the-plucky-squire.webp"
+                },
+                {
+                    "name": "UFO 50",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/ufo-50.webp"
+                }
+            ]
+        },
+        {
+            "name": "Most Neglected Franchise (Currently)",
+            "description": "This award is presented to the most neglected franchise. This category only considers mainline games as a new entry in the series.",
+            "order": 21,
+            "nominees": [
+                {
+                    "name": "Banjo-Kazooie",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/banjo-kazooie.webp"
+                },
+                {
+                    "name": "F-Zero",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/f-zero.webp"
+                },
+                {
+                    "name": "Jak & Daxter",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/jak-and-daxter.webp"
+                },
+                {
+                    "name": "Mega Man",
+                    "winner": true,
+                    "votes": 6,
+                    "image": "/img/nominees/2024/mega-man.webp"
+                },
+                {
+                    "name": "Portal",
+                    "winner": false,
+                    "votes": 1,
+                    "image": "/img/nominees/2024/portal.webp"
+                },
+                {
+                    "name": "Star Fox",
+                    "winner": false,
+                    "votes": 3,
+                    "image": "/img/nominees/2024/star-fox.webp"
+                }
+            ]
+        },
+        {
+            "name": "Most Influential Game of All Time",
+            "description": "This award is presented to the most influential game of all time. Games are considered influential by inventing/improving heavily upon game mechanics that are still used today in various other games.",
+            "order": 22,
+            "nominees": [
+                {
+                    "name": "Fallout",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/fallout.webp"
+                },
+                {
+                    "name": "Half-Life 2",
+                    "winner": false,
+                    "votes": 3,
+                    "image": "/img/nominees/2024/half-life-2.webp"
+                },
+                {
+                    "name": "Portal",
+                    "winner": false,
+                    "votes": 4,
+                    "image": "/img/nominees/2024/portal.webp"
+                },
+                {
+                    "name": "Quake",
+                    "winner": false,
+                    "votes": 4,
+                    "image": "/img/nominees/2024/quake.webp"
+                },
+                {
+                    "name": "Super Mario 64",
+                    "winner": true,
+                    "votes": 6,
+                    "image": "/img/nominees/2024/super-mario-64.webp"
+                },
+                {
+                    "name": "Super Meat Boy",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/super-meat-boy.webp"
+                },
+                {
+                    "name": "The Elder Scrolls 3: Morrowind",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/elder-scrolls-3-morrowind.webp"
+                }
+            ]
+        },
+        {
+            "name": "Game of the Year",
+            "description": "This award is presented to the best overall game released in 2024.",
+            "order": 23,
+            "nominees": [
+                {
+                    "name": "Astro Bot",
+                    "winner": true,
+                    "votes": 6,
+                    "image": "/img/nominees/2024/astro-bot.webp"
+                },
+                {
+                    "name": "Balatro",
+                    "winner": false,
+                    "votes": 6,
+                    "image": "/img/nominees/2024/balatro.webp"
+                },
+                {
+                    "name": "Black Myth: Wukong",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/black-myth-wukong.webp"
+                },
+                {
+                    "name": "Metaphor: ReFantazio",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/metaphor-refantazio.webp"
+                },
+                {
+                    "name": "Silent Hill 2",
+                    "winner": false,
+                    "votes": 3,
+                    "image": "/img/nominees/2024/silent-hill-2.webp"
+                }
+            ]
+        },
+        {
+            "name": "Game of All Time",
+            "description": "This award is presented to the best overall video game of all time.",
+            "order": 24,
+            "nominees": [
+                {
+                    "name": "Grand Theft Auto V",
+                    "winner": false,
+                    "votes": 3,
+                    "image": "/img/nominees/2024/grand-theft-auto-v.webp"
+                },
+                {
+                    "name": "Halo: Combat Evolved",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/halo-combat-evolved.webp"
+                },
+                {
+                    "name": "Minecraft",
+                    "winner": true,
+                    "votes": 8,
+                    "image": "/img/nominees/2024/minecraft.webp"
+                },
+                {
+                    "name": "Super Mario Galaxy",
+                    "winner": false,
+                    "votes": 2,
+                    "image": "/img/nominees/2024/super-mario-galaxy.webp"
+                },
+                {
+                    "name": "The Elder Scrolls V: Skyrim",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2024/skyrim.webp"
+                },
+                {
+                    "name": "The Legend of Zelda: Ocarina of Time",
+                    "winner": false,
+                    "votes": 4,
+                    "image": "/img/nominees/2024/zelda-ocarina-of-time.webp"
+                }
+            ]
+        }
+    ]
+}
