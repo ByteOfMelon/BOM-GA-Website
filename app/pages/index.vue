@@ -18,14 +18,9 @@
                 <NuxtLink to="/about">
                     <button>Learn More</button>
                 </NuxtLink>
-                <!-- 
-                    <div class="!my-12 w-2/3">
-                        <hr class="w-full" />
-                    </div>
-                -->
             </div>
+            <h1 class="text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Latest News</h1>
             <div class="card justify-center items-center px-12 py-4 flex flex-col space-y-8">
-                <h2 class="text-4xl font-extrabold grad-title text-shadow-lg">Latest News</h2>
                 <div class="flex" v-if="error">
                     <p>Error loading news, please click the button below to visit News</p>
                 </div>
@@ -53,11 +48,38 @@
                     <button>Read More News</button>
                 </NuxtLink>
             </div>
+            <h1 class="text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Past Shows</h1>
             <div class="card justify-center items-center px-12 py-4 flex flex-col space-y-4">
-                <h2 class="text-4xl font-extrabold grad-title text-shadow-lg">Past Shows</h2>
-                <p>
-                   TBA
-                </p>
+                <div class="flex" v-if="error_vod">
+                    <p>Error loading VODs, please try again</p>
+                </div>
+                <div class="flex" v-else-if="pending_vod">
+                    <p>Loading VODs, please wait...</p>
+                </div>
+                <div class="flex flex-col w-full justify-center space-x-6" v-else-if="vods">
+                    <div v-for="vod in vods">
+                        <div v-if="vod.order === 1">
+                            <h2 class="text-4xl font-extrabold mb-4 grad-title text-shadow-lg">{{ vod.year }}</h2>
+                            <div class="flex flex-col items-center justify-center">
+                                <div class="flex" v-if="vod">
+                                    <div class="article">
+                                        <iframe :src="`https://www.youtube.com/embed/${vod.youtube_url}`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="rounded-[16px] mb-4 w-full h-[350px]"></iframe>
+                                        <div class="flex flex-col space-y-2 mb-4">
+                                            <h3 class="text-xl font-bold">{{ vod.title }}</h3>
+                                            <p class="text-base">{{ vod.description }}</p>
+                                        </div>
+                                        <NuxtLink :to="`/vods#${vod.year}`">
+                                            <button>View All {{vod.year}} Videos</button>
+                                        </NuxtLink>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex" v-else>
+                    <i>No VODs found</i>
+                </div>
             </div>
         </div>
     </div>
@@ -70,6 +92,9 @@
 
     // Fetch news
     const { data: articles, pending, error } = await useAsyncData("articles", () => queryCollection('news').order('date', 'DESC').limit(4).all());
+
+    // Fetch full VODs
+    const { data: vods, pending: pending_vod, error: error_vod } = await useAsyncData("vods", () => queryCollection('vods').order('year', 'DESC').order("order", "ASC").all());
 
     // Helper function to format the date string for better readability.
     const formatDate = (dateString: string) => {

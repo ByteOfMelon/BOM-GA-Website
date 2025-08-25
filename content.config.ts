@@ -32,6 +32,15 @@ export default defineContentConfig({
       schema: z.object({
         order: z.number()
       })
+    }),
+    vods: defineCollection({
+      type: "page",
+      source: "vods/**.md",
+      schema: z.object({
+        order: z.number(),
+        year: z.number(),
+        youtube_url: z.string()
+      })
     })
   }
 })
