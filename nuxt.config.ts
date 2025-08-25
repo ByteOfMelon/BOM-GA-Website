@@ -22,6 +22,12 @@ export default defineNuxtConfig({
     }
   },
 
+  content: {
+    preview: {
+      api: 'https://api.nuxt.studio'
+    }
+  },
+
   fontawesome: {
     icons: {
       solid: ["house", "record-vinyl", "circle-info", "link", "users", "globe", "bars", "xmark", "circle-check"],
