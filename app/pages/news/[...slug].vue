@@ -50,10 +50,10 @@ useHead(() => ({
 </script>
 
 <template>
-	<div class="flex flex-col justify-center items-center space-y-4 p-8">
+	<div class="flex flex-col justify-center items-center space-y-4 sm:p-8 pt-8">
 		<div class="flex flex-col items-center space-y-8 text-center w-full" v-if="error || !article">
-			<h1 class="text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Error loading article</h1>
-			<div class="card justify-center items-center px-12 py-4 flex flex-col space-y-4">
+			<h1 class="text-3xl sm:text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Error loading article</h1>
+			<div class="card justify-center items-center px-4 sm:px-12 py-4 flex flex-col space-y-4">
 				<p>This article may have moved or been deleted.</p>
 				<NuxtLink to="/news">
 					<button>Return to news page</button>
@@ -62,9 +62,9 @@ useHead(() => ({
 		</div>
 
 		<div class="flex flex-col items-center space-y-8 text-center w-full" v-else-if="article">
-			<img :src="article.image" class="w-1/3" />
-			<h1 class="text-5xl font-extrabold mb-4 grad-title text-shadow-lg">{{ article.title }}</h1>
-			<div class="card justify-center items-center px-12 py-4 flex flex-col space-y-4">
+			<img :src="article.image" class="w-full sm:w-1/3" />
+			<h1 class="text-3xl sm:text-5xl font-extrabold mb-4 grad-title text-shadow-lg">{{ article.title }}</h1>
+			<div class="card justify-center items-center px-4 sm:px-12 py-4 flex flex-col space-y-4">
 				<p>{{ article.description }}</p>
 				<div>
 					<p class="text-base text-gray-400">Published on {{ formatDate(article.date) }}</p>
@@ -75,8 +75,8 @@ useHead(() => ({
 				<ContentRenderer class="article-content" :value="article" />
 			</div>
 
-			<h1 class="text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Share this article</h1>
-			<div class="card justify-center items-center px-12 py-4 flex flex-col space-y-4">
+			<h1 class="text-3xl sm:text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Share this article</h1>
+			<div class="card justify-center items-center px-4 sm:px-12 py-4 flex flex-col space-y-4">
 				<div class="flex flex-row socials items-center text-4xl space-x-8">
                     <NuxtLink :to="`https://www.facebook.com/sharer/sharer.php?u=https%3A//ga.byteofmelon.com${article.path}`" class="flex items-center socials-generic">
                         <fa :icon="['fab', 'facebook']" />

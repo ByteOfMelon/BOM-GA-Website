@@ -1,7 +1,7 @@
 <template>
-	<div class="flex flex-col justify-center items-center space-y-4 p-8">
+	<div class="flex flex-col justify-center items-center space-y-4 sm:p-8 pt-8">
 		<div class="flex flex-col items-center space-y-8 text-center w-full">
-			<h1 class="text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Winners</h1>
+			<h1 class="text-3xl sm:text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Winners</h1>
 
 			<div class="flex" v-if="error">
 				<p>Error loading winners, please try again</p>
@@ -11,7 +11,7 @@
 			</div>
 			<div class="flex w-full" v-else-if="winners">
 				<div class="card justify-center items-center px-4 sm:px-12 py-4 flex flex-col space-y-4" v-for="w, index in winners">
-					<h2 class="text-2xl font-bold grad-title">{{ w.year }}</h2>
+					<h2 class="text-xl sm:text-2xl font-bold grad-title">{{ w.year }}</h2>
 
 					<div class="flex flex-col space-y-8">
 						<div class="flex flex-col space-y-2" v-for="c in w.categories">
@@ -23,8 +23,8 @@
 									<div :class="`inner-card flex flex-row items-center space-x-4 sm:space-x-8 p-2 shadow-lg${n.winner ? ' gradient-regular-important' : ''}`" >
 										<img :src="n.image" class="w-24" />
 										<div class="flex flex-col text-left">
-											<h3 class="text-xl font-bold">{{ n.name }}</h3>
-											<p class="text-lg">{{ n.votes.toLocaleString("en-US") }} votes</p>
+											<h3 class="text-base sm:text-xl font-bold">{{ n.name }}</h3>
+											<p class="text-base sm:text-lg">{{ n.votes.toLocaleString("en-US") }} votes</p>
 										</div>
 										<div class="flex-grow"></div>
 										<div class="flex" v-if="n.winner">

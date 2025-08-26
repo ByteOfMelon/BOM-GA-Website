@@ -1,8 +1,8 @@
 <template>
-    <div class="flex flex-col justify-center items-center space-y-4 p-8">
+    <div class="flex flex-col justify-center items-center space-y-4 sm:p-8 pt-8">
         <div class="flex flex-col items-center space-y-8 text-center">
-            <h1 class="text-5xl font-extrabold mb-4 grad-title text-shadow-lg">About Byte of Melon Community Game Awards</h1>
-            <div class="card justify-center items-center px-12 py-4 flex flex-col space-y-4">
+            <h1 class="text-3xl sm:text-5xl font-extrabold mb-4 grad-title text-shadow-lg">About Byte of Melon Community Game Awards</h1>
+            <div class="card justify-center items-center px-4 sm:px-12 py-4 flex flex-col space-y-4">
                 <p>
                     The Byte of Melon Game Awards is an annual game award show presented by Michael Webb, aka "Byte of Melon", on his Twitch channel, <NuxtLink to="https://twitch.tv/byteofmelon">twitch.tv/byteofmelon</NuxtLink>.<br /><br />
                     
@@ -15,45 +15,45 @@
                 <div class="py-6 w-2/3">
                     <hr class="w-full" />
                 </div>
-                <h2 class="text-4xl font-extrabold mb-4 grad-title text-shadow-lg">Award Process</h2>
+                <h2 class="text-2xl sm:text-4xl font-extrabold mb-4 grad-title text-shadow-lg">Award Process</h2>
                 <div class="flex flex-col space-y-6 !mt-8">
                     <div class="inner-card items-center p-2">
-                        <div class="p-8 pl-9 flex items-center justify-center">
-                            <h1 class="text-4xl brand-color font-bold">1</h1>
+                        <div class="p-4 sm:p-8 sm:pl-9 flex items-center justify-center">
+                            <h1 class="text-2xl sm:text-4xl brand-color font-bold">1</h1>
                         </div>
                         <div class="flex flex-col items-start text-left p-4">
                             <b class="brand-color">Nomination</b>
-                            <p class="text-lg">Nominations are decided by the Byte of Melon Community Game Awards Nomination Committee (see below for member list). The Committee takes into account several factors, such as popularity amongst gamers on various social media platforms, the nominations made by The Game Awards (if applicable), and their own personal experiences with the game.</p>
+                            <p class="sm:text-lg">Nominations are decided by the Byte of Melon Community Game Awards Nomination Committee (see below for member list). The Committee takes into account several factors, such as popularity amongst gamers on various social media platforms, the nominations made by The Game Awards (if applicable), and their own personal experiences with the game.</p>
                         </div>
                     </div>
                     <div class="inner-card items-center p-2">
-                        <div class="p-8 pl-9 flex items-center justify-center">
-                            <h1 class="text-4xl brand-color font-bold">2</h1>
+                        <div class="p-4 sm:p-8 sm:pl-9 flex items-center justify-center">
+                            <h1 class="text-2xl sm:text-4xl brand-color font-bold">2</h1>
                         </div>
                         <div class="flex flex-col items-start text-left p-4">
                             <b class="brand-color">Voting</b>
-                            <p class="text-lg">After the nominees are decided, a public form is opened where the general public can vote on which nominee should win each award. The game with the most votes wins.</p>
+                            <p class="sm:text-lg">After the nominees are decided, a public form is opened where the general public can vote on which nominee should win each award. The game with the most votes wins.</p>
                         </div>
                     </div>
                     <div class="inner-card items-center p-2">
-                        <div class="p-8 pl-9 flex items-center justify-center">
-                            <h1 class="text-4xl brand-color font-bold">3</h1>
+                        <div class="p-4 sm:p-8 sm:pl-9 flex items-center justify-center">
+                            <h1 class="text-2xl sm:text-4xl brand-color font-bold">3</h1>
                         </div>
                         <div class="flex flex-col items-start text-left p-4">
                             <b class="brand-color">Results</b>
-                            <p class="text-lg">After the form closes, the results will be compiled and shown, first live in the award ceremony, then published onto this website soon after the ceremony.</p>
+                            <p class="sm:text-lg">After the form closes, the results will be compiled and shown, first live in the award ceremony, then published onto this website soon after the ceremony.</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <h1 class="text-5xl font-extrabold mb-4 grad-title text-shadow-lg">About The Creator</h1>
-            <div class="card justify-center items-center px-12 py-4 flex flex-col space-y-4">
+            <h1 class="text-3xl sm:text-5xl font-extrabold mb-4 grad-title text-shadow-lg">About The Creator</h1>
+            <div class="card justify-center items-center px-4 sm:px-12 py-4 flex flex-col space-y-4">
                 <img src="~/assets/img/bom-portrait.jpg" class="w-56 shadow-lg" />
-                <h2 class="text-4xl font-extrabold mb-4 grad-title text-shadow-lg">Michael Webb</h2>
+                <h2 class="text-2xl sm:text-4xl font-extrabold mb-4 grad-title text-shadow-lg">Michael Webb</h2>
                 <p>
                     Michael Webb, also known as Byte of Melon, is a YouTuber, Twitch streamer, web designer, programmer, video editor, etc, etc. He currently attends college at a local university to become a secondary education (middle and/or high school) social studies teacher. His main goal in his teaching career is to make sure that all students are seen, educated and given a good chance at life.
                 </p>
-                <div class="flex flex-row socials items-center text-4xl space-x-8">
+                <div class="flex flex-row socials items-center text-2xl sm:text-4xl space-x-8">
                     <NuxtLink to="https://byteofmelon.com" class="flex items-center socials-generic">
                         <fa icon="globe" />
                     </NuxtLink>
@@ -75,8 +75,8 @@
                     </NuxtLink>
                 </div>
             </div>
-            <h1 class="text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Nomination Committee Members</h1>
-            <div class="card justify-center items-center px-12 py-4 flex flex-col space-y-4">
+            <h1 class="text-3xl sm:text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Nomination Committee Members</h1>
+            <div class="card justify-center items-center px-4 sm:px-12 py-4 flex flex-col space-y-4">
                 <div class="flex" v-if="error">
                     <p>Error loading committee members, please try again later</p>
                 </div>
@@ -84,13 +84,13 @@
                     <p>Loading members, please wait...</p>
                 </div>
                 <div class="flex flex-col w-full justify-center space-y-6" v-else-if="members">
-                    <div class="flex flex-row space-x-8 items-center" v-for="member in members">
-                        <img :src="member.avatar" class="min-w-36 w-36" />
-                        <div class="flex flex-col space-y-2 text-left">
+                    <div class="flex flex-col sm:flex-row sm:space-x-8 items-center" v-for="member in members">
+                        <img :src="member.avatar" class="sm:min-w-36 sm:w-36 min-w-32 w-32 mb-6 sm:mb-0" />
+                        <div class="flex flex-col space-y-2 text-center sm:text-left">
                             <h3 class="text-xl font-bold grad-title">{{ member.name }}</h3>
                             <p class="text-base">{{ member.bio }}</p>
                             
-                            <div class="flex flex-row socials items-center text-xl space-x-4">
+                            <div class="flex flex-row socials justify-center sm:justify-start items-center text-xl space-x-4">
                                 <NuxtLink :to="member.website" class="flex items-center socials-generic" v-if="member.website">
                                     <fa icon="globe" />
                                 </NuxtLink>

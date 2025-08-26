@@ -1,11 +1,11 @@
 <template>
-    <div class="flex flex-col justify-center items-center space-y-4 p-8">
+    <div class="flex flex-col justify-center items-center space-y-4 sm:p-8 pt-8">
         <div class="flex flex-col items-center space-y-8 text-center">
-            <h1 class="text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Game awards by the community, for the community</h1>
-            <div class="card justify-center items-center px-12 py-4 flex flex-col space-y-4">
+            <h1 class="text-3xl sm:text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Game awards by the community, for the community</h1>
+            <div class="card justify-center items-center px-4 sm:px-12 py-4 flex flex-col space-y-4">
                 <p>Have your say in awarding the best video games! The Byte of Melon Game Awards is entirely decided by your own vote, rather than the views of a select few.</p>
 
-                <h2 class="text-4xl font-extrabold !mt-8 mb-4 grad-title text-shadow-lg">About</h2>
+                <h2 class="text-2xl sm:text-4xl font-extrabold !mt-8 mb-4 grad-title text-shadow-lg">About</h2>
                 <p>
                     The Byte of Melon Game Awards is an annual game award show presented by Michael Webb, aka "Byte of Melon", on his Twitch channel, <NuxtLink to="https://twitch.tv/byteofmelon">twitch.tv/byteofmelon</NuxtLink>.<br /><br />
                     
@@ -19,8 +19,8 @@
                     <button>Learn More</button>
                 </NuxtLink>
             </div>
-            <h1 class="text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Latest News</h1>
-            <div class="card justify-center items-center px-12 py-4 flex flex-col space-y-8">
+            <h1 class="text-3xl sm:text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Latest News</h1>
+            <div class="card justify-center items-center px-4 sm:px-12 py-4 flex flex-col space-y-8">
                 <div class="flex" v-if="error">
                     <p>Error loading news, please click the button below to visit News</p>
                 </div>
@@ -28,7 +28,7 @@
                     <p>Loading news, please wait...</p>
                 </div>
                 <div class="flex w-full justify-center space-x-6" v-else-if="articles">
-                    <div class="flex flex-col w-1/4" v-for="article in articles" :key="article.path">
+                    <div class="flex flex-col w-full sm:w-1/4" v-for="article in articles" :key="article.path">
                         <NuxtLink :to="article.path">
                             <div class="article">
                                 <img :src="article.image" class="mb-4" />
@@ -48,8 +48,8 @@
                     <button>Read More News</button>
                 </NuxtLink>
             </div>
-            <h1 class="text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Past Shows</h1>
-            <div class="card justify-center items-center px-12 py-4 flex flex-col space-y-4">
+            <h1 class="text-3xl sm:text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Past Shows</h1>
+            <div class="card justify-center items-center px-4 sm:px-12 py-4 flex flex-col space-y-4">
                 <div class="flex" v-if="error_vod">
                     <p>Error loading VODs, please try again</p>
                 </div>
@@ -59,11 +59,11 @@
                 <div class="flex flex-col w-full justify-center space-x-6" v-else-if="vods">
                     <div v-for="vod in vods">
                         <div v-if="vod.order === 1">
-                            <h2 class="text-4xl font-extrabold mb-4 grad-title text-shadow-lg">{{ vod.year }}</h2>
+                            <h2 class="text-2xl sm:text-4xl font-extrabold mb-4 grad-title text-shadow-lg">{{ vod.year }}</h2>
                             <div class="flex flex-col items-center justify-center">
                                 <div class="flex" v-if="vod">
                                     <div class="article">
-                                        <iframe :src="`https://www.youtube.com/embed/${vod.youtube_url}`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="rounded-[16px] mb-4 w-full h-[350px]"></iframe>
+                                        <iframe :src="`https://www.youtube.com/embed/${vod.youtube_url}`" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="rounded-[16px] mb-4 w-full h-[200px] sm:h-[350px]"></iframe>
                                         <div class="flex flex-col space-y-2 mb-4">
                                             <h3 class="text-xl font-bold">{{ vod.title }}</h3>
                                             <p class="text-base">{{ vod.description }}</p>
