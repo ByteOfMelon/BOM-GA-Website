@@ -1,7 +1,11 @@
 <script setup>
-    useHead({ title: 'VODs' });
+    useHead({ title: 'Media' });
 
-	const { data: vods, pending, error } = await useAsyncData("vods", () => queryCollection('vods').order('year', 'DESC').order("order", "ASC").all());
+    definePageMeta({
+        title: 'Media'
+    })
+
+	const { data: vods, pending, error } = await useAsyncData("media", () => queryCollection('media').order('year', 'DESC').order("order", "ASC").all());
 
     // Helper function to format the date string for better readability.
     const formatDate = (dateString) => {
@@ -14,13 +18,13 @@
 <template>
 	<div class="flex flex-col justify-center items-center space-y-4 sm:p-8 pt-8">
 		<div class="flex flex-col items-center space-y-8 text-center w-full">
-			<h1 class="text-3xl sm:text-5xl font-extrabold mb-4 grad-title text-shadow-lg">VODs</h1>
+			<h1 class="text-3xl sm:text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Media</h1>
 			<div class="card justify-center items-center px-4 sm:px-12 py-4 flex flex-col space-y-4">
 				<div class="flex" v-if="error">
-					<p>Error loading VODs, please try again later</p>
+					<p>Error loading media, please try again later</p>
 				</div>
 				<div class="flex" v-else-if="pending">
-					<p>Loading VODs, please wait...</p>
+					<p>Loading media, please wait...</p>
 				</div>
 				<div class="flex flex-col w-full justify-center space-y-6 w-full" v-else-if="vods">
 					<div class="flex flex-col w-full" v-for="vod in vods" :key="vod.path">
@@ -39,7 +43,7 @@
 					</div>
 				</div>
 				<div class="flex" v-else>
-					<i>No VODs found</i>
+					<i>No media found</i>
 				</div>
 			</div>
 		</div>

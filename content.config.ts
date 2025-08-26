@@ -33,9 +33,9 @@ export default defineContentConfig({
         order: z.number()
       })
     }),
-    vods: defineCollection({
+    media: defineCollection({
       type: "page",
-      source: "vods/**.md",
+      source: "media/**.md",
       schema: z.object({
         order: z.number(),
         year: z.number(),

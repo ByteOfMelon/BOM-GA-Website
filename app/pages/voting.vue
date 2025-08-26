@@ -15,4 +15,8 @@
 
 <script setup lang="ts">
     useHead({ title: 'Voting' });
+
+    definePageMeta({
+        title: 'Voting'
+    })
 </script>

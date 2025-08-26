@@ -6,5 +6,16 @@
 </template>
 
 <script lang="ts" setup>
-	useHead({ titleTemplate: '%s - Byte of Melon Community Game Awards' });
+	const route = useRoute();
+	useHead(
+		{ 
+			titleTemplate: '%s - Byte of Melon Community Game Awards',
+			meta: [
+				{
+					property: 'og:title',
+					content: `${route.meta.title} - Byte of Melon Community Game Awards`
+				}
+			]
+		}
+	);
 </script>

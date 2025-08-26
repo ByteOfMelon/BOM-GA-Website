@@ -50,5 +50,10 @@
 
 <script setup lang="ts">
     useHead({ title: 'Winners' });
+
+    definePageMeta({
+        title: 'Winners'
+    })
+	
     const { data: winners, pending, error } = await useAsyncData("winners", () => queryCollection('winners').order("year", "DESC").all())
 </script>

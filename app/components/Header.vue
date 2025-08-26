@@ -1,9 +1,11 @@
 <template>
     <div class="nav sticky w-full top-0 z-50 flex gradient-dark p-4 shadow-lg text-lg">
-        <div class="hidden sm:flex items-center justify-center space-x-8 w-full">
+        <div class="hidden md:flex items-center justify-center space-x-8 w-full">
             <NuxtLink to="/about">About</NuxtLink>
             <hr />
             <NuxtLink to="/news">News</NuxtLink>
+            <hr />
+            <NuxtLink to="/media">Media</NuxtLink>
             <hr />
             <NuxtLink to="/winners">Winners</NuxtLink>
             <hr />
@@ -11,7 +13,7 @@
             <hr />
             <NuxtLink to="/faq">FAQ</NuxtLink>
         </div>
-        <div class="sm:hidden flex items-center justify-start w-full">
+        <div class="md:hidden flex items-center justify-start w-full">
             <div class="flex items-center space-x-2">
                 <NuxtLink to="/">
                     <img src="~/assets/img/ga-logo.png" class="rounded-full h-[30px]" />
@@ -28,7 +30,7 @@
         </div>
     </div>
 
-    <div class="sm:hidden flex flex-col gradient-dark shadow-md sticky top-[72px] z-50" v-if="state.mobileMenu">
+    <div class="md:hidden flex flex-col gradient-dark shadow-md sticky top-[72px] z-50" v-if="state.mobileMenu">
         <div class="flex flex-col items-center justify-center w-full p-4 space-y-2">
             <NuxtLink to="/about" @click="clickMobileNavItem()" class="flex items-center h-[42px] w-full">
                 <div class="w-full article">
@@ -38,6 +40,11 @@
             <NuxtLink to="/news" @click="clickMobileNavItem()" class="flex items-center h-[42px] w-full">
                 <div class="w-full article">
                     <span>News</span>
+                </div>
+            </NuxtLink>
+            <NuxtLink to="/media" @click="clickMobileNavItem()" class="flex items-center h-[42px] w-full">
+                <div class="w-full article">
+                    <span>Media</span>
                 </div>
             </NuxtLink>
             <NuxtLink to="/winners" @click="clickMobileNavItem()" class="flex items-center h-[42px] w-full">

@@ -51,10 +51,10 @@
             <h1 class="text-3xl sm:text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Past Shows</h1>
             <div class="card justify-center items-center px-4 sm:px-12 py-4 flex flex-col space-y-4">
                 <div class="flex" v-if="error_vod">
-                    <p>Error loading VODs, please try again</p>
+                    <p>Error loading media, please try again</p>
                 </div>
                 <div class="flex" v-else-if="pending_vod">
-                    <p>Loading VODs, please wait...</p>
+                    <p>Loading media, please wait...</p>
                 </div>
                 <div class="flex flex-col w-full justify-center space-x-6" v-else-if="vods">
                     <div v-for="vod in vods">
@@ -68,8 +68,8 @@
                                             <h3 class="text-xl font-bold">{{ vod.title }}</h3>
                                             <p class="text-base">{{ vod.description }}</p>
                                         </div>
-                                        <NuxtLink :to="`/vods#${vod.year}`">
-                                            <button>View All {{vod.year}} Videos</button>
+                                        <NuxtLink :to="`/media#${vod.year}`">
+                                            <button>View All {{vod.year}} Media</button>
                                         </NuxtLink>
                                     </div>
                                 </div>
@@ -78,7 +78,7 @@
                     </div>
                 </div>
                 <div class="flex" v-else>
-                    <i>No VODs found</i>
+                    <i>No media found</i>
                 </div>
             </div>
         </div>
@@ -90,11 +90,15 @@
         title: 'Home'
     })
 
+    definePageMeta({
+        title: 'Home'
+    })
+
     // Fetch news
     const { data: articles, pending, error } = await useAsyncData("articles", () => queryCollection('news').order('date', 'DESC').limit(4).all());
 
-    // Fetch full VODs
-    const { data: vods, pending: pending_vod, error: error_vod } = await useAsyncData("vods", () => queryCollection('vods').order('year', 'DESC').order("order", "ASC").all());
+    // Fetch full Media
+    const { data: vods, pending: pending_vod, error: error_vod } = await useAsyncData("media", () => queryCollection('media').order('year', 'DESC').order("order", "ASC").all());
 
     // Helper function to format the date string for better readability.
     const formatDate = (dateString: string) => {

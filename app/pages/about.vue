@@ -124,5 +124,10 @@
 
 <script setup>
     useHead({ title: 'About' });
+
+    definePageMeta({
+        title: 'About'
+    })
+
     const { data: members, pending, error } = await useAsyncData("committee_members", () => queryCollection('committee_members').order("order", "ASC").all())
 </script>

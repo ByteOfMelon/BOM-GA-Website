@@ -4,7 +4,7 @@ const route = useRoute()
 const { data: vod, pending, error } = await useAsyncData(
 	route.path,
 	() => {
-		return queryCollection('vods').where('path', '=', route.path).first();
+		return queryCollection('media').where('path', '=', route.path).first();
 	}
 )
 
@@ -21,7 +21,7 @@ useHead(() => ({
         { 
             key: 'description',
             name: 'description', 
-            content: vod.value ? vod.value.description : "View this VOD on the official site of the Byte of Melon Community Game Awards." 
+            content: vod.value ? vod.value.description : "View this media on the official site of the Byte of Melon Community Game Awards." 
         },
 
         // Corrected Open Graph tags with 'property' and a unique 'key'
@@ -38,7 +38,7 @@ useHead(() => ({
         { 
             key: 'og:description',
             property: 'og:description', 
-            content: vod.value ? vod.value.description : "View this VOD on the official site of the Byte of Melon Community Game Awards."
+            content: vod.value ? vod.value.description : "View this media on the official site of the Byte of Melon Community Game Awards."
         },
         { 
             key: 'og:image',
@@ -52,11 +52,11 @@ useHead(() => ({
 <template>
 	<div class="flex flex-col justify-center items-center space-y-4 sm:p-8 pt-8">
 		<div class="flex flex-col items-center space-y-8 text-center w-full" v-if="error || !vod">
-			<h1 class="text-3xl sm:text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Error loading VOD</h1>
+			<h1 class="text-3xl sm:text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Error loading media</h1>
 			<div class="card justify-center items-center px-4 sm:px-12 py-4 flex flex-col space-y-4">
-				<p>This VOD may have moved or been deleted.</p>
-				<NuxtLink to="/vods">
-					<button>Return to VODs page</button>
+				<p>This media may have moved or been deleted.</p>
+				<NuxtLink to="/media">
+					<button>Return to media page</button>
 				</NuxtLink>
 			</div>
 		</div>
@@ -75,7 +75,7 @@ useHead(() => ({
 				<ContentRenderer class="article-content" :value="vod" />
 			</div>
 
-			<h1 class="text-3xl sm:text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Share this VOD</h1>
+			<h1 class="text-3xl sm:text-5xl font-extrabold mb-4 grad-title text-shadow-lg">Share this content</h1>
 			<div class="card justify-center items-center px-4 sm:px-12 py-4 flex flex-col space-y-4">
 				<div class="flex flex-row socials items-center text-4xl space-x-8">
                     <NuxtLink :to="`https://www.facebook.com/sharer/sharer.php?u=https%3A//ga.byteofmelon.com${vod.path}`" class="flex items-center socials-generic">
