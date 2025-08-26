@@ -24,7 +24,7 @@
 										<img :src="n.image" class="w-24" />
 										<div class="flex flex-col text-left">
 											<h3 class="text-base sm:text-xl font-bold">{{ n.name }}</h3>
-											<p class="text-base sm:text-lg">{{ n.votes.toLocaleString("en-US") }} votes</p>
+											<p class="text-base sm:text-lg">{{ n.votes.toLocaleString("en-US") }} {{ n.votes === 1 ? 'vote' : 'votes'}}</p>
 										</div>
 										<div class="flex-grow"></div>
 										<div class="flex" v-if="n.winner">
