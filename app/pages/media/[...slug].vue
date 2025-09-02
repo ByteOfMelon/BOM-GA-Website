@@ -43,7 +43,7 @@ useHead(() => ({
         { 
             key: 'og:image',
             property: 'og:image', 
-            content: vod.value ? `https://ga.byteofmelon.com/img${vod.path}.png` : "https://ga.byteofmelon.com/img/generic-banner.png"
+            content: vod.value ? `https://ga.byteofmelon.com/img${vod.path}.webp` : "https://ga.byteofmelon.com/img/generic-banner.png"
         },
     ]
 }));
@@ -62,7 +62,7 @@ useHead(() => ({
 		</div>
 
 		<div class="flex flex-col items-center space-y-8 text-center w-full" v-else-if="vod">
-			<img :src="`/img${vod.path}.png`" class="w-full sm:w-1/3" />
+			<img :src="`/img${vod.path}.webp`" class="w-full sm:w-1/3" />
 			<h1 class="text-3xl sm:text-5xl font-extrabold mb-4 grad-title text-shadow-lg">{{ vod.title }}</h1>
 			<div class="card justify-center items-center px-4 sm:px-12 py-4 flex flex-col space-y-4">
 				<p>{{ vod.description }}</p>

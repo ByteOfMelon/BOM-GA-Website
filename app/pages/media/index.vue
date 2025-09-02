@@ -32,7 +32,7 @@
                         <div class="flex flex-row w-full">
                             <NuxtLink :to="vod.path" class="w-full">
                                 <div class="article flex flex-col sm:flex-row items-center sm:space-x-8">
-                                    <img :src="`/img${vod.path}.png`" class="w-64" />
+                                    <img :src="`/img${vod.path}.webp`" class="w-64" />
                                     <div class="flex flex-col space-y-2 text-center sm:text-left sm:mt-0 mt-4">
                                         <h3 class="text-xl font-bold">{{ vod.title }}</h3>
                                         <p class="text-base">{{ vod.description }}</p>
