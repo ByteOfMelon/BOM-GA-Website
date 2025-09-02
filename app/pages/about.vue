@@ -48,7 +48,7 @@
             </div>
             <h1 class="text-3xl sm:text-5xl font-extrabold mb-4 grad-title text-shadow-lg">About The Creator</h1>
             <div class="card justify-center items-center px-4 sm:px-12 py-4 flex flex-col space-y-4">
-                <img src="~/assets/img/bom-portrait.jpg" class="w-56 shadow-lg" />
+                <img src="~/assets/img/bom-portrait.webp" class="w-56 shadow-lg" />
                 <h2 class="text-2xl sm:text-4xl font-extrabold mb-4 grad-title text-shadow-lg">Michael Webb</h2>
                 <p>
                     Michael Webb, also known as Byte of Melon, is a YouTuber, Twitch streamer, web designer, programmer, video editor, etc, etc. He currently attends college at a local university to become a secondary education (middle and/or high school) social studies teacher. His main goal in his teaching career is to make sure that all students are seen, educated and given a good chance at life.
