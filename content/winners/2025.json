@@ -1,0 +1,732 @@
+{
+    "year": 2025,
+    "categories": [
+        {
+            "name": "Best Xbox Exclusive Game of All Time",
+            "description": "The best game that is exclusive to any Xbox platform (OG Xbox, Xbox 360, Xbox One, Xbox Series S/X). The games must have been exclusive to the PS4 for at least two full years (24 months).",
+            "order": 1,
+            "nominees": [
+                {
+                    "name": "Gears of War (2006, Xbox 360)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/gears-of-war.webp"
+                },
+                {
+                    "name": "Halo 3 (2007, Xbox 360)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/halo-3.webp"
+                },
+                {
+                    "name": "Halo: Combat Evolved (2001, OG Xbox)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/halo-combat-evolved.webp"
+                },
+                {
+                    "name": "Sunset Overdrive (2014, Xbox One)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/sunset-overdrive.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Licensed Game of All Time",
+            "description": "This award is presented to the best game that is a tie-in to another franchise, such as a movie or TV show of all time.",
+            "order": 2,
+            "nominees": [
+                {
+                    "name": "Batman: Arkham City (2011)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/batman-arkham-city.webp"
+                },
+                {
+                    "name": "Goldeneye 007 (1997)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/goldeneye-007.webp"
+                },
+                {
+                    "name": "Lego Star Wars: The Skywalker Saga (2022)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/lego-star-wars-the-skywalker-saga.webp"
+                },
+                {
+                    "name": "Marvel vs. Capcom 2 (2000)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/marvel-vs-capcom-2.webp"
+                },
+                {
+                    "name": "Marvel's Spider-Man 2 (2023)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/marvels-spider-man-2.webp"
+                },
+                {
+                    "name": "Star Wars: Knights of the Old Republic (2003)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/star-wars-knights-of-the-old-republic.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best DLC of 2025",
+            "description": "The best downloadable content (DLC) released for an existing game. The game does not have to be from this year, but the DLC itself does.",
+            "order": 3,
+            "nominees": [
+                {
+                    "name": "Donkey Kong Bananza: DK Island & Emerald Rush",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/dk-bananza-dk-island-emerald-rush.webp"
+                },
+                {
+                    "name": "Rift of the NecroDancer: Hatsune Miku Music Pack",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/rift-of-the-necrodancer-hatsune-miku-music-pack.webp"
+                },
+                {
+                    "name": "Sea of Stars: Throes of the Watchmaker",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/sea-of-stars-throes-of-the-watchmaker.webp"
+                },
+                {
+                    "name": "Vampire Survivors: Ante Chamber",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/vampire-survivors-ante-chamber.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Action RPG of 2025",
+            "description": "This award is presented to the best action role-playing game (RPG) that was released in 2025.",
+            "order": 4,
+            "nominees": [
+                {
+                    "name": "Elden Ring: Nightreign",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/elden-ring-nightreign.webp"
+                },
+                {
+                    "name": "Ghost of Y\u014dtei",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/ghost-of-yotei.webp"
+                },
+                {
+                    "name": "Like a Dragon: Pirate Yakuza in Hawaii",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/like-a-dragon-pirate-yakuza-in-hawaii.webp"
+                },
+                {
+                    "name": "Monster Hunter Wilds",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/monster-hunter-wilds.webp"
+                },
+                {
+                    "name": "Pokémon Legends: Z-A",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/pokemon-legends-z-a.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Shooter of 2025",
+            "description": "This award is presented to the best 'shooter game', a type of action game focused on defeating enemies with ranged weapons, that was released in 2025.",
+            "order": 5,
+            "nominees": [
+                {
+                    "name": "ARC Raiders",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/arc-raiders.webp"
+                },
+                {
+                    "name": "Battlefield 6",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/battlefield-6.webp"
+                },
+                {
+                    "name": "Borderlands 4",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/borderlands-4.webp"
+                },
+                {
+                    "name": "Doom: The Dark Ages",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/doom-the-dark-ages.webp"
+                },
+                {
+                    "name": "FragPunk",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/fragpunk.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Soundtrack of 2025",
+            "description": "This award is presented to the best soundtrack (music) in a video game released in 2025.",
+            "order": 6,
+            "nominees": [
+                {
+                    "name": "Donkey Kong Bananza",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/donkey-kong-bananza.webp"
+                },
+                {
+                    "name": "Hollow Knight: Silksong",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/hollow-knight-silksong.webp"
+                },
+                {
+                    "name": "Mario Kart World",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/mario-kart-world.webp"
+                },
+                {
+                    "name": "Rift of the NecroDancer",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/rift-of-the-necrodancer.webp"
+                },
+                {
+                    "name": "Sea of Stars: Throes of the Watchmaker",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/sea-of-stars-throes-of-the-watchmaker.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Soundtrack of All Time",
+            "description": "This award is presented to the best soundtrack (music) in a video game of all time.",
+            "order": 7,
+            "nominees": [
+                {
+                    "name": "Halo 3 (2007)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/halo-3.webp"
+                },
+                {
+                    "name": "Hollow Knight: Silksong (2025)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/hollow-knight-silksong.webp"
+                },
+                {
+                    "name": "Persona 5 Royal (2020)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/persona-5-royal.webp"
+                },
+                {
+                    "name": "Super Mario 64 (1996)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/super-mario-64.webp"
+                },
+                {
+                    "name": "The Legend of Zelda: Ocarina of Time (1998)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/the-legend-of-zelda-ocarina-of-time.webp"
+                },
+                {
+                    "name": "Undertale (2015)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/undertale.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Narrative of 2025",
+            "description": "This award is presented to the best narrative (story) in a video game released in 2025.",
+            "order": 8,
+            "nominees": [
+                {
+                    "name": "Clair Obscur: Expedition 33",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/clair-obscur-expedition-33.webp"
+                },
+                {
+                    "name": "Death Stranding 2: On the Beach",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/death-stranding-2-on-the-beach.webp"
+                },
+                {
+                    "name": "Ghost of Y\u014dtei",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/ghost-of-yotei.webp"
+                },
+                {
+                    "name": "Hades II",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/hades-ii.webp"
+                },
+                {
+                    "name": "Hollow Knight: Silksong",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/hollow-knight-silksong.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Narrative of All Time",
+            "description": "This award is presented to the best narrative (story) in a video game of all time.",
+            "order": 9,
+            "nominees": [
+                {
+                    "name": "Chrono Trigger (1995)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/chrono-trigger.webp"
+                },
+                {
+                    "name": "God of War: Ragnarok (2022)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/god-of-war-ragnarok.webp"
+                },
+                {
+                    "name": "Red Dead Redemption II (2018)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/red-dead-redemption-ii.webp"
+                },
+                {
+                    "name": "Resident Evil 4 (2005)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/resident-evil-4.webp"
+                },
+                {
+                    "name": "The Last of Us (2013)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/the-last-of-us.webp"
+                },
+                {
+                    "name": "Xenoblade Chronicles 3 (2022)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/xenoblade-chronicles-3.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best PlayStation 4 Exclusive of All Time",
+            "description": "This award is presented to the best game released exclusively or almost exclusively for the PlayStation 4 of all time. The games must have been exclusive to the PS4 for at least two full years (24 months).",
+            "order": 10,
+            "nominees": [
+                {
+                    "name": "Bloodborne (2015)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/bloodborne.webp"
+                },
+                {
+                    "name": "God of War (2018)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/god-of-war.webp"
+                },
+                {
+                    "name": "Marvel's Spider-Man (2018)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/marvels-spider-man.webp"
+                },
+                {
+                    "name": "Persona 5 Royal (2020)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/persona-5-royal.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Art Direction of 2025",
+            "description": "This award is presented to the game with the best art direction released in 2025.",
+            "order": 11,
+            "nominees": [
+                {
+                    "name": "Blue Prince",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/blue-prince.webp"
+                },
+                {
+                    "name": "Clair Obscur: Expedition 33",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/clair-obscur-expedition-33.webp"
+                },
+                {
+                    "name": "Hades II",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/hades-ii.webp"
+                },
+                {
+                    "name": "Hollow Knight: Silksong",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/hollow-knight-silksong.webp"
+                },
+                {
+                    "name": "Mario Kart World",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/mario-kart-world.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Art Direction of All Time",
+            "description": "This award is presented to the game with the best art direction of all time.",
+            "order": 12,
+            "nominees": [
+                {
+                    "name": "Persona 5 Royal (2020)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/persona-5-royal.webp"
+                },
+                {
+                    "name": "Splatoon (2015)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/splatoon.webp"
+                },
+                {
+                    "name": "The Legend of Zelda: The Wind Waker (2002)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/the-legend-of-zelda-the-wind-waker.webp"
+                },
+                {
+                    "name": "\u014ckami (2006)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/okami.webp"
+                },
+                {
+                    "name": "Sea of Stars (2023)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/sea-of-stars.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Switch 1 Game of All Time",
+            "description": "This award is presented to the best game released exclusively or almost exclusively for the Nintendo Switch 1 of all time. This award is still allowed to go to games that also released on Nintendo’s prior console, the Wii U.",
+            "order": 13,
+            "nominees": [
+                {
+                    "name": "Animal Crossing: New Horizons (2020)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/animal-crossing-new-horizons.webp"
+                },
+                {
+                    "name": "Mario Kart 8 Deluxe (2017)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/mario-kart-8-deluxe.webp"
+                },
+                {
+                    "name": "Super Mario Bros. Wonder (2023)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/super-mario-bros-wonder.webp"
+                },
+                {
+                    "name": "Super Mario Odyssey (2017)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/super-mario-odyssey.webp"
+                },
+                {
+                    "name": "Super Smash Bros. Ultimate (2018)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/super-smash-bros-ultimate.webp"
+                },
+                {
+                    "name": "The Legend of Zelda: Breath of the Wild (2017)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/the-legend-of-zelda-breath-of-the-wild.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Sound Design of 2025",
+            "description": "This award is presented to the game with the best sound design released in 2025.",
+            "order": 14,
+            "nominees": [
+                {
+                    "name": "Blue Prince",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/blue-prince.webp"
+                },
+                {
+                    "name": "Clair Obscur: Expedition 33",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/clair-obscur-expedition-33.webp"
+                },
+                {
+                    "name": "Donkey Kong Bananza",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/donkey-kong-bananza.webp"
+                },
+                {
+                    "name": "Hades II",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/hades-ii.webp"
+                },
+                {
+                    "name": "Hollow Knight: Silksong",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/hollow-knight-silksong.webp"
+                },
+                {
+                    "name": "Split Fiction",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/split-fiction.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Speedrun Game of 2025",
+            "description": "This award is presented to the best speedrunning game that was released in 2025. This category considers elements such as the popularity of running the game and the development of interesting mechanics to complete runs.",
+            "order": 15,
+            "nominees": [
+                {
+                    "name": "Donkey Kong Bananza",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/donkey-kong-bananza.webp"
+                },
+                {
+                    "name": "Hollow Knight: Silksong",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/hollow-knight-silksong.webp"
+                },
+                {
+                    "name": "Mario Kart World",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/mario-kart-world.webp"
+                },
+                {
+                    "name": "Sonic Racing: Crossworlds",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/sonic-racing-crossworlds.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Speedrun Game of All Time",
+            "description": "This award is presented to the best speedrunning game of all time. This category considers elements such as the popularity of running the game and the development of interesting mechanics to complete runs.",
+            "order": 16,
+            "nominees": [
+                {
+                    "name": "Celeste (2018)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/celeste.webp"
+                },
+                {
+                    "name": "Minecraft (2009)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/minecraft.webp"
+                },
+                {
+                    "name": "Super Mario 64 (1996)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/super-mario-64.webp"
+                },
+                {
+                    "name": "Super Metroid (1994)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/super-metroid.webp"
+                },
+                {
+                    "name": "The Legend of Zelda: Breath of the Wild (2017)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/the-legend-of-zelda-breath-of-the-wild.webp"
+                },
+                {
+                    "name": "The Legend of Zelda: Ocarina of Time (1998)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/the-legend-of-zelda-ocarina-of-time.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Indie Game of 2025",
+            "description": "This award is presented to the best independent (indie) game, or a game released by a studio without AAA backing, released in 2025.",
+            "order": 17,
+            "nominees": [
+                {
+                    "name": "Blue Prince",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/blue-prince.webp"
+                },
+                {
+                    "name": "Clair Obscur: Expedition 33",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/clair-obscur-expedition-33.webp"
+                },
+                {
+                    "name": "Hades II",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/hades-ii.webp"
+                },
+                {
+                    "name": "Hollow Knight: Silksong",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/hollow-knight-silksong.webp"
+                },
+                {
+                    "name": "Rift of the NecroDancer",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/rift-of-the-necrodancer.webp"
+                }
+            ]
+        },
+        {
+            "name": "Best Indie Game of All Time",
+            "description": "This award is presented to the best independent (indie) game, or a game released by a studio without AAA backing, of all time.",
+            "order": 18,
+            "nominees": [
+                {
+                    "name": "Celeste (2018)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/celeste.webp"
+                },
+                {
+                    "name": "Hollow Knight: Silksong (2025)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/hollow-knight-silksong.webp"
+                },
+                {
+                    "name": "Stardew Valley (2016)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/stardew-valley.webp"
+                },
+                {
+                    "name": "Super Meat Boy (2010)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/super-meat-boy.webp"
+                },
+                {
+                    "name": "The Binding of Isaac (2011)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/the-binding-of-isaac.webp"
+                },
+                {
+                    "name": "Undertale (2015)",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/undertale.webp"
+                }
+            ]
+        },
+        {
+            "name": "Game of the Year",
+            "description": "The best game of 2025 in your opinion. Usually, the game that you had the most fun with, or the game that is advancing the industry forward.",
+            "order": 19,
+            "nominees": [
+                {
+                    "name": "Clair Obscur: Expedition 33",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/clair-obscur-expedition-33.webp"
+                },
+                {
+                    "name": "Death Stranding 2: On the Beach",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/death-stranding-2-on-the-beach.webp"
+                },
+                {
+                    "name": "Donkey Kong Bananza",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/donkey-kong-bananza.webp"
+                },
+                {
+                    "name": "Hades II",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/hades-ii.webp"
+                },
+                {
+                    "name": "Hollow Knight: Silksong",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/hollow-knight-silksong.webp"
+                },
+                {
+                    "name": "Mario Kart World",
+                    "winner": false,
+                    "votes": 0,
+                    "image": "/img/nominees/2025/mario-kart-world.webp"
+                }
+            ]
+        }
+    ]
+}

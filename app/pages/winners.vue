@@ -9,11 +9,11 @@
 			<div class="flex" v-else-if="pending">
 				<p>Loading winners, please wait...</p>
 			</div>
-			<div class="flex w-full" v-else-if="winners">
-				<div class="card justify-center items-center px-4 sm:px-12 py-4 flex flex-col space-y-4" v-for="w, index in winners">
+			<div class="flex w-full flex-col gap-12" v-else-if="winners">
+				<div class="card justify-center items-center px-4 sm:px-12 py-4 flex flex-col space-y-4 w-full" v-for="w, index in winners">
 					<h2 class="text-xl sm:text-2xl font-bold grad-title">{{ w.year }}</h2>
 
-					<div class="flex flex-col space-y-8">
+					<div class="flex flex-col space-y-8 w-full sm:px-12">
 						<div class="flex flex-col space-y-2" v-for="c in w.categories">
 							<h3 class="text-xl font-bold">{{ c.name }}</h3>
 							<p class="text-base">{{ c.description }}</p>
@@ -24,7 +24,7 @@
 										<img :src="n.image" class="w-24" />
 										<div class="flex flex-col text-left">
 											<h3 class="text-base sm:text-xl font-bold">{{ n.name }}</h3>
-											<p class="text-base sm:text-lg">{{ n.votes.toLocaleString("en-US") }} {{ n.votes === 1 ? 'vote' : 'votes'}}</p>
+											<p class="text-base sm:text-lg" v-if="shouldShowVotes(c)">{{ n.votes.toLocaleString("en-US") }} {{ n.votes === 1 ? 'vote' : 'votes'}}</p>
 										</div>
 										<div class="flex-grow"></div>
 										<div class="flex" v-if="n.winner">
@@ -34,10 +34,6 @@
 								</div>
 							</div>
 						</div>
-					</div>
-
-					<div class="!pt-8 !py-0 w-2/3" v-if="index + 1 < winners.length">
-						<hr class="w-full" />
 					</div>
 				</div>
 			</div>
@@ -56,4 +52,8 @@
     })
 	
     const { data: winners, pending, error } = await useAsyncData("winners", () => queryCollection('winners').order("year", "DESC").all())
+
+    const shouldShowVotes = (category: any) => {
+        return category?.nominees?.some((n: any) => n.votes > 0) ?? false;
+    }
 </script>

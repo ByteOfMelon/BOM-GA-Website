@@ -77,7 +77,7 @@
 
 <script setup lang="ts">
     const bannerCookie = useCookie('hide_voting_banner_2025');
-    const showBanner = ref(!bannerCookie.value);
+    const showBanner = ref(false);
 
     const closeBanner = () => {
         bannerCookie.value = 'true';
