@@ -9,25 +9,25 @@
                 {
                     "name": "Gears of War (2006, Xbox 360)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 3,
                     "image": "/img/nominees/2025/gears-of-war.webp"
                 },
                 {
                     "name": "Halo 3 (2007, Xbox 360)",
-                    "winner": false,
-                    "votes": 0,
+                    "winner": true,
+                    "votes": 5,
                     "image": "/img/nominees/2025/halo-3.webp"
                 },
                 {
                     "name": "Halo: Combat Evolved (2001, OG Xbox)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 4,
                     "image": "/img/nominees/2025/halo-combat-evolved.webp"
                 },
                 {
                     "name": "Sunset Overdrive (2014, Xbox One)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 1,
                     "image": "/img/nominees/2025/sunset-overdrive.webp"
                 }
             ]
@@ -40,37 +40,37 @@
                 {
                     "name": "Batman: Arkham City (2011)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 4,
                     "image": "/img/nominees/2025/batman-arkham-city.webp"
                 },
                 {
                     "name": "Goldeneye 007 (1997)",
-                    "winner": false,
-                    "votes": 0,
+                    "winner": true,
+                    "votes": 4,
                     "image": "/img/nominees/2025/goldeneye-007.webp"
                 },
                 {
                     "name": "Lego Star Wars: The Skywalker Saga (2022)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 3,
                     "image": "/img/nominees/2025/lego-star-wars-the-skywalker-saga.webp"
                 },
                 {
                     "name": "Marvel vs. Capcom 2 (2000)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 2,
                     "image": "/img/nominees/2025/marvel-vs-capcom-2.webp"
                 },
                 {
                     "name": "Marvel's Spider-Man 2 (2023)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 2,
                     "image": "/img/nominees/2025/marvels-spider-man-2.webp"
                 },
                 {
                     "name": "Star Wars: Knights of the Old Republic (2003)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 1,
                     "image": "/img/nominees/2025/star-wars-knights-of-the-old-republic.webp"
                 }
             ]
@@ -82,26 +82,26 @@
             "nominees": [
                 {
                     "name": "Donkey Kong Bananza: DK Island & Emerald Rush",
-                    "winner": false,
-                    "votes": 0,
+                    "winner": true,
+                    "votes": 5,
                     "image": "/img/nominees/2025/dk-bananza-dk-island-emerald-rush.webp"
                 },
                 {
                     "name": "Rift of the NecroDancer: Hatsune Miku Music Pack",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 5,
                     "image": "/img/nominees/2025/rift-of-the-necrodancer-hatsune-miku-music-pack.webp"
                 },
                 {
                     "name": "Sea of Stars: Throes of the Watchmaker",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 3,
                     "image": "/img/nominees/2025/sea-of-stars-throes-of-the-watchmaker.webp"
                 },
                 {
                     "name": "Vampire Survivors: Ante Chamber",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 1,
                     "image": "/img/nominees/2025/vampire-survivors-ante-chamber.webp"
                 }
             ]
@@ -119,26 +119,26 @@
                 },
                 {
                     "name": "Ghost of Y\u014dtei",
-                    "winner": false,
-                    "votes": 0,
+                    "winner": true,
+                    "votes": 3,
                     "image": "/img/nominees/2025/ghost-of-yotei.webp"
                 },
                 {
                     "name": "Like a Dragon: Pirate Yakuza in Hawaii",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 3,
                     "image": "/img/nominees/2025/like-a-dragon-pirate-yakuza-in-hawaii.webp"
                 },
                 {
                     "name": "Monster Hunter Wilds",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 2,
                     "image": "/img/nominees/2025/monster-hunter-wilds.webp"
                 },
                 {
-                    "name": "Pokémon Legends: Z-A",
+                    "name": "Pok�mon Legends: Z-A",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 1,
                     "image": "/img/nominees/2025/pokemon-legends-z-a.webp"
                 }
             ]
@@ -151,31 +151,31 @@
                 {
                     "name": "ARC Raiders",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 1,
                     "image": "/img/nominees/2025/arc-raiders.webp"
                 },
                 {
                     "name": "Battlefield 6",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 3,
                     "image": "/img/nominees/2025/battlefield-6.webp"
                 },
                 {
                     "name": "Borderlands 4",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 2,
                     "image": "/img/nominees/2025/borderlands-4.webp"
                 },
                 {
                     "name": "Doom: The Dark Ages",
-                    "winner": false,
-                    "votes": 0,
+                    "winner": true,
+                    "votes": 3,
                     "image": "/img/nominees/2025/doom-the-dark-ages.webp"
                 },
                 {
                     "name": "FragPunk",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 1,
                     "image": "/img/nominees/2025/fragpunk.webp"
                 }
             ]
@@ -188,25 +188,25 @@
                 {
                     "name": "Donkey Kong Bananza",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 1,
                     "image": "/img/nominees/2025/donkey-kong-bananza.webp"
                 },
                 {
                     "name": "Hollow Knight: Silksong",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 2,
                     "image": "/img/nominees/2025/hollow-knight-silksong.webp"
                 },
                 {
                     "name": "Mario Kart World",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 5,
                     "image": "/img/nominees/2025/mario-kart-world.webp"
                 },
                 {
                     "name": "Rift of the NecroDancer",
-                    "winner": false,
-                    "votes": 0,
+                    "winner": true,
+                    "votes": 7,
                     "image": "/img/nominees/2025/rift-of-the-necrodancer.webp"
                 },
                 {
@@ -225,7 +225,7 @@
                 {
                     "name": "Halo 3 (2007)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 1,
                     "image": "/img/nominees/2025/halo-3.webp"
                 },
                 {
@@ -237,25 +237,25 @@
                 {
                     "name": "Persona 5 Royal (2020)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 2,
                     "image": "/img/nominees/2025/persona-5-royal.webp"
                 },
                 {
                     "name": "Super Mario 64 (1996)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 3,
                     "image": "/img/nominees/2025/super-mario-64.webp"
                 },
                 {
                     "name": "The Legend of Zelda: Ocarina of Time (1998)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 5,
                     "image": "/img/nominees/2025/the-legend-of-zelda-ocarina-of-time.webp"
                 },
                 {
                     "name": "Undertale (2015)",
-                    "winner": false,
-                    "votes": 0,
+                    "winner": true,
+                    "votes": 7,
                     "image": "/img/nominees/2025/undertale.webp"
                 }
             ]
@@ -267,32 +267,32 @@
             "nominees": [
                 {
                     "name": "Clair Obscur: Expedition 33",
-                    "winner": false,
-                    "votes": 0,
+                    "winner": true,
+                    "votes": 4,
                     "image": "/img/nominees/2025/clair-obscur-expedition-33.webp"
                 },
                 {
                     "name": "Death Stranding 2: On the Beach",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 3,
                     "image": "/img/nominees/2025/death-stranding-2-on-the-beach.webp"
                 },
                 {
                     "name": "Ghost of Y\u014dtei",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 1,
                     "image": "/img/nominees/2025/ghost-of-yotei.webp"
                 },
                 {
                     "name": "Hades II",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 1,
                     "image": "/img/nominees/2025/hades-ii.webp"
                 },
                 {
                     "name": "Hollow Knight: Silksong",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 4,
                     "image": "/img/nominees/2025/hollow-knight-silksong.webp"
                 }
             ]
@@ -305,37 +305,37 @@
                 {
                     "name": "Chrono Trigger (1995)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 5,
                     "image": "/img/nominees/2025/chrono-trigger.webp"
                 },
                 {
                     "name": "God of War: Ragnarok (2022)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 1,
                     "image": "/img/nominees/2025/god-of-war-ragnarok.webp"
                 },
                 {
                     "name": "Red Dead Redemption II (2018)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 1,
                     "image": "/img/nominees/2025/red-dead-redemption-ii.webp"
                 },
                 {
                     "name": "Resident Evil 4 (2005)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 1,
                     "image": "/img/nominees/2025/resident-evil-4.webp"
                 },
                 {
                     "name": "The Last of Us (2013)",
-                    "winner": false,
-                    "votes": 0,
+                    "winner": true,
+                    "votes": 5,
                     "image": "/img/nominees/2025/the-last-of-us.webp"
                 },
                 {
                     "name": "Xenoblade Chronicles 3 (2022)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 4,
                     "image": "/img/nominees/2025/xenoblade-chronicles-3.webp"
                 }
             ]
@@ -347,26 +347,26 @@
             "nominees": [
                 {
                     "name": "Bloodborne (2015)",
-                    "winner": false,
-                    "votes": 0,
+                    "winner": true,
+                    "votes": 6,
                     "image": "/img/nominees/2025/bloodborne.webp"
                 },
                 {
                     "name": "God of War (2018)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 3,
                     "image": "/img/nominees/2025/god-of-war.webp"
                 },
                 {
                     "name": "Marvel's Spider-Man (2018)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 2,
                     "image": "/img/nominees/2025/marvels-spider-man.webp"
                 },
                 {
                     "name": "Persona 5 Royal (2020)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 4,
                     "image": "/img/nominees/2025/persona-5-royal.webp"
                 }
             ]
@@ -379,31 +379,31 @@
                 {
                     "name": "Blue Prince",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 2,
                     "image": "/img/nominees/2025/blue-prince.webp"
                 },
                 {
                     "name": "Clair Obscur: Expedition 33",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 1,
                     "image": "/img/nominees/2025/clair-obscur-expedition-33.webp"
                 },
                 {
                     "name": "Hades II",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 1,
                     "image": "/img/nominees/2025/hades-ii.webp"
                 },
                 {
                     "name": "Hollow Knight: Silksong",
-                    "winner": false,
-                    "votes": 0,
+                    "winner": true,
+                    "votes": 7,
                     "image": "/img/nominees/2025/hollow-knight-silksong.webp"
                 },
                 {
                     "name": "Mario Kart World",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 3,
                     "image": "/img/nominees/2025/mario-kart-world.webp"
                 }
             ]
@@ -416,25 +416,25 @@
                 {
                     "name": "Persona 5 Royal (2020)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 2,
                     "image": "/img/nominees/2025/persona-5-royal.webp"
                 },
                 {
                     "name": "Splatoon (2015)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 2,
                     "image": "/img/nominees/2025/splatoon.webp"
                 },
                 {
                     "name": "The Legend of Zelda: The Wind Waker (2002)",
-                    "winner": false,
-                    "votes": 0,
+                    "winner": true,
+                    "votes": 6,
                     "image": "/img/nominees/2025/the-legend-of-zelda-the-wind-waker.webp"
                 },
                 {
                     "name": "\u014ckami (2006)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 6,
                     "image": "/img/nominees/2025/okami.webp"
                 },
                 {
@@ -447,43 +447,43 @@
         },
         {
             "name": "Best Switch 1 Game of All Time",
-            "description": "This award is presented to the best game released exclusively or almost exclusively for the Nintendo Switch 1 of all time. This award is still allowed to go to games that also released on Nintendo’s prior console, the Wii U.",
+            "description": "This award is presented to the best game released exclusively or almost exclusively for the Nintendo Switch 1 of all time. This award is still allowed to go to games that also released on Nintendos prior console, the Wii U.",
             "order": 13,
             "nominees": [
                 {
                     "name": "Animal Crossing: New Horizons (2020)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 2,
                     "image": "/img/nominees/2025/animal-crossing-new-horizons.webp"
                 },
                 {
                     "name": "Mario Kart 8 Deluxe (2017)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 4,
                     "image": "/img/nominees/2025/mario-kart-8-deluxe.webp"
                 },
                 {
                     "name": "Super Mario Bros. Wonder (2023)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 1,
                     "image": "/img/nominees/2025/super-mario-bros-wonder.webp"
                 },
                 {
                     "name": "Super Mario Odyssey (2017)",
-                    "winner": false,
-                    "votes": 0,
+                    "winner": true,
+                    "votes": 4,
                     "image": "/img/nominees/2025/super-mario-odyssey.webp"
                 },
                 {
                     "name": "Super Smash Bros. Ultimate (2018)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 3,
                     "image": "/img/nominees/2025/super-smash-bros-ultimate.webp"
                 },
                 {
                     "name": "The Legend of Zelda: Breath of the Wild (2017)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 4,
                     "image": "/img/nominees/2025/the-legend-of-zelda-breath-of-the-wild.webp"
                 }
             ]
@@ -496,37 +496,37 @@
                 {
                     "name": "Blue Prince",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 1,
                     "image": "/img/nominees/2025/blue-prince.webp"
                 },
                 {
                     "name": "Clair Obscur: Expedition 33",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 2,
                     "image": "/img/nominees/2025/clair-obscur-expedition-33.webp"
                 },
                 {
                     "name": "Donkey Kong Bananza",
-                    "winner": false,
-                    "votes": 0,
+                    "winner": true,
+                    "votes": 5,
                     "image": "/img/nominees/2025/donkey-kong-bananza.webp"
                 },
                 {
                     "name": "Hades II",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 1,
                     "image": "/img/nominees/2025/hades-ii.webp"
                 },
                 {
                     "name": "Hollow Knight: Silksong",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 3,
                     "image": "/img/nominees/2025/hollow-knight-silksong.webp"
                 },
                 {
                     "name": "Split Fiction",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 3,
                     "image": "/img/nominees/2025/split-fiction.webp"
                 }
             ]
@@ -538,26 +538,26 @@
             "nominees": [
                 {
                     "name": "Donkey Kong Bananza",
-                    "winner": false,
-                    "votes": 0,
+                    "winner": true,
+                    "votes": 6,
                     "image": "/img/nominees/2025/donkey-kong-bananza.webp"
                 },
                 {
                     "name": "Hollow Knight: Silksong",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 5,
                     "image": "/img/nominees/2025/hollow-knight-silksong.webp"
                 },
                 {
                     "name": "Mario Kart World",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 2,
                     "image": "/img/nominees/2025/mario-kart-world.webp"
                 },
                 {
                     "name": "Sonic Racing: Crossworlds",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 3,
                     "image": "/img/nominees/2025/sonic-racing-crossworlds.webp"
                 }
             ]
@@ -570,37 +570,37 @@
                 {
                     "name": "Celeste (2018)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 2,
                     "image": "/img/nominees/2025/celeste.webp"
                 },
                 {
                     "name": "Minecraft (2009)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 2,
                     "image": "/img/nominees/2025/minecraft.webp"
                 },
                 {
                     "name": "Super Mario 64 (1996)",
-                    "winner": false,
-                    "votes": 0,
+                    "winner": true,
+                    "votes": 9,
                     "image": "/img/nominees/2025/super-mario-64.webp"
                 },
                 {
                     "name": "Super Metroid (1994)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 2,
                     "image": "/img/nominees/2025/super-metroid.webp"
                 },
                 {
                     "name": "The Legend of Zelda: Breath of the Wild (2017)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 1,
                     "image": "/img/nominees/2025/the-legend-of-zelda-breath-of-the-wild.webp"
                 },
                 {
                     "name": "The Legend of Zelda: Ocarina of Time (1998)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 2,
                     "image": "/img/nominees/2025/the-legend-of-zelda-ocarina-of-time.webp"
                 }
             ]
@@ -619,25 +619,25 @@
                 {
                     "name": "Clair Obscur: Expedition 33",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 4,
                     "image": "/img/nominees/2025/clair-obscur-expedition-33.webp"
                 },
                 {
                     "name": "Hades II",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 1,
                     "image": "/img/nominees/2025/hades-ii.webp"
                 },
                 {
                     "name": "Hollow Knight: Silksong",
-                    "winner": false,
-                    "votes": 0,
+                    "winner": true,
+                    "votes": 8,
                     "image": "/img/nominees/2025/hollow-knight-silksong.webp"
                 },
                 {
                     "name": "Rift of the NecroDancer",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 4,
                     "image": "/img/nominees/2025/rift-of-the-necrodancer.webp"
                 }
             ]
@@ -656,19 +656,19 @@
                 {
                     "name": "Hollow Knight: Silksong (2025)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 2,
                     "image": "/img/nominees/2025/hollow-knight-silksong.webp"
                 },
                 {
                     "name": "Stardew Valley (2016)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 4,
                     "image": "/img/nominees/2025/stardew-valley.webp"
                 },
                 {
                     "name": "Super Meat Boy (2010)",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 4,
                     "image": "/img/nominees/2025/super-meat-boy.webp"
                 },
                 {
@@ -679,8 +679,8 @@
                 },
                 {
                     "name": "Undertale (2015)",
-                    "winner": false,
-                    "votes": 0,
+                    "winner": true,
+                    "votes": 8,
                     "image": "/img/nominees/2025/undertale.webp"
                 }
             ]
@@ -693,19 +693,19 @@
                 {
                     "name": "Clair Obscur: Expedition 33",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 4,
                     "image": "/img/nominees/2025/clair-obscur-expedition-33.webp"
                 },
                 {
                     "name": "Death Stranding 2: On the Beach",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 1,
                     "image": "/img/nominees/2025/death-stranding-2-on-the-beach.webp"
                 },
                 {
                     "name": "Donkey Kong Bananza",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 2,
                     "image": "/img/nominees/2025/donkey-kong-bananza.webp"
                 },
                 {
@@ -716,14 +716,14 @@
                 },
                 {
                     "name": "Hollow Knight: Silksong",
-                    "winner": false,
-                    "votes": 0,
+                    "winner": true,
+                    "votes": 7,
                     "image": "/img/nominees/2025/hollow-knight-silksong.webp"
                 },
                 {
                     "name": "Mario Kart World",
                     "winner": false,
-                    "votes": 0,
+                    "votes": 4,
                     "image": "/img/nominees/2025/mario-kart-world.webp"
                 }
             ]

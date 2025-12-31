@@ -1,4 +1,5 @@
 <template>
+    <!--
     <div v-if="showBanner" class="gradient-dark text-white p-2 text-center relative z-[60]">
         <div class="container mx-auto px-8">
             Voting open NOW for Byte of Melon Community Game Awards 2025! Click <NuxtLink to="/voting" class="underline font-bold hover:text-gray-200">here</NuxtLink> to learn more
@@ -7,6 +8,7 @@
             <fa icon="xmark" />
         </button>
     </div>
+    -->
 
     <div class="nav sticky w-full top-0 z-50 flex gradient-dark p-4 shadow-lg text-lg">
         <div class="hidden md:flex items-center justify-center space-x-8 w-full">
@@ -76,13 +78,13 @@
 </template>
 
 <script setup lang="ts">
-    const bannerCookie = useCookie('hide_voting_banner_2025');
-    const showBanner = ref(false);
+    // const bannerCookie = useCookie('hide_voting_banner_2025');
+    // const showBanner = ref(false);
 
-    const closeBanner = () => {
-        bannerCookie.value = 'true';
-        showBanner.value = false;
-    }
+    // const closeBanner = () => {
+    //     bannerCookie.value = 'true';
+    //     showBanner.value = false;
+    // }
 
     const state = reactive({
         mobileMenu: false
